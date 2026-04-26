@@ -14,3 +14,11 @@ jobs:
 
       - name: Run script
         run: python scripts/convert.py
+
+      - name: Commit TZ files
+        run: |
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          git add public/*
+          git commit -m "Update TZ data" || echo "No changes"
+          git push
