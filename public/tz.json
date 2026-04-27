@@ -1,0 +1,9 @@
+{
+  "version": "2026.04.27",
+  "zones": {
+    "UTC": "UTC0",
+    "Asia/Amman": "AST-3",
+    "Europe/London": "GMT0BST,M3.5.0/1,M10.5.0",
+    "America/New_York": "EST5EDT,M3.2.0/2,M11.1.0/2"
+  }
+}
