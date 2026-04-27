@@ -1,1799 +1,5580 @@
 {
   "Africa/Abidjan": {
-    "name": "Africa/Abidjan"
+    "stdOffset": 0,
+    "dstOffset": 0,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Africa/Accra": {
-    "name": "Africa/Accra"
+    "stdOffset": 0,
+    "dstOffset": 0,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Africa/Addis_Ababa": {
-    "name": "Africa/Addis_Ababa"
+    "stdOffset": 180,
+    "dstOffset": 180,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Africa/Algiers": {
-    "name": "Africa/Algiers"
+    "stdOffset": 60,
+    "dstOffset": 60,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Africa/Asmara": {
-    "name": "Africa/Asmara"
+    "stdOffset": 180,
+    "dstOffset": 180,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Africa/Asmera": {
-    "name": "Africa/Asmera"
+    "stdOffset": 180,
+    "dstOffset": 180,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Africa/Bamako": {
-    "name": "Africa/Bamako"
+    "stdOffset": 0,
+    "dstOffset": 0,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Africa/Bangui": {
-    "name": "Africa/Bangui"
+    "stdOffset": 60,
+    "dstOffset": 60,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Africa/Banjul": {
-    "name": "Africa/Banjul"
+    "stdOffset": 0,
+    "dstOffset": 0,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Africa/Bissau": {
-    "name": "Africa/Bissau"
+    "stdOffset": 0,
+    "dstOffset": 0,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Africa/Blantyre": {
-    "name": "Africa/Blantyre"
+    "stdOffset": 120,
+    "dstOffset": 120,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Africa/Brazzaville": {
-    "name": "Africa/Brazzaville"
+    "stdOffset": 60,
+    "dstOffset": 60,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Africa/Bujumbura": {
-    "name": "Africa/Bujumbura"
+    "stdOffset": 120,
+    "dstOffset": 120,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Africa/Cairo": {
-    "name": "Africa/Cairo"
+    "stdOffset": 120,
+    "dstOffset": 180,
+    "dstStart": {
+      "month": 4,
+      "week": 0,
+      "dow": 5,
+      "hour": 0
+    },
+    "dstEnd": {
+      "month": 10,
+      "week": 0,
+      "dow": 4,
+      "hour": 23
+    }
   },
   "Africa/Casablanca": {
-    "name": "Africa/Casablanca"
+    "stdOffset": 60,
+    "dstOffset": 60,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Africa/Ceuta": {
-    "name": "Africa/Ceuta"
+    "stdOffset": 60,
+    "dstOffset": 120,
+    "dstStart": {
+      "month": 3,
+      "week": 0,
+      "dow": 0,
+      "hour": 2
+    },
+    "dstEnd": {
+      "month": 10,
+      "week": 0,
+      "dow": 0,
+      "hour": 2
+    }
   },
   "Africa/Conakry": {
-    "name": "Africa/Conakry"
+    "stdOffset": 0,
+    "dstOffset": 0,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Africa/Dakar": {
-    "name": "Africa/Dakar"
+    "stdOffset": 0,
+    "dstOffset": 0,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Africa/Dar_es_Salaam": {
-    "name": "Africa/Dar_es_Salaam"
+    "stdOffset": 180,
+    "dstOffset": 180,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Africa/Djibouti": {
-    "name": "Africa/Djibouti"
+    "stdOffset": 180,
+    "dstOffset": 180,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Africa/Douala": {
-    "name": "Africa/Douala"
+    "stdOffset": 60,
+    "dstOffset": 60,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Africa/El_Aaiun": {
-    "name": "Africa/El_Aaiun"
+    "stdOffset": 60,
+    "dstOffset": 60,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Africa/Freetown": {
-    "name": "Africa/Freetown"
+    "stdOffset": 0,
+    "dstOffset": 0,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Africa/Gaborone": {
-    "name": "Africa/Gaborone"
+    "stdOffset": 120,
+    "dstOffset": 120,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Africa/Harare": {
-    "name": "Africa/Harare"
+    "stdOffset": 120,
+    "dstOffset": 120,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Africa/Johannesburg": {
-    "name": "Africa/Johannesburg"
+    "stdOffset": 120,
+    "dstOffset": 120,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Africa/Juba": {
-    "name": "Africa/Juba"
+    "stdOffset": 120,
+    "dstOffset": 120,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Africa/Kampala": {
-    "name": "Africa/Kampala"
+    "stdOffset": 180,
+    "dstOffset": 180,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Africa/Khartoum": {
-    "name": "Africa/Khartoum"
+    "stdOffset": 120,
+    "dstOffset": 120,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Africa/Kigali": {
-    "name": "Africa/Kigali"
+    "stdOffset": 120,
+    "dstOffset": 120,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Africa/Kinshasa": {
-    "name": "Africa/Kinshasa"
+    "stdOffset": 60,
+    "dstOffset": 60,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Africa/Lagos": {
-    "name": "Africa/Lagos"
+    "stdOffset": 60,
+    "dstOffset": 60,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Africa/Libreville": {
-    "name": "Africa/Libreville"
+    "stdOffset": 60,
+    "dstOffset": 60,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Africa/Lome": {
-    "name": "Africa/Lome"
+    "stdOffset": 0,
+    "dstOffset": 0,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Africa/Luanda": {
-    "name": "Africa/Luanda"
+    "stdOffset": 60,
+    "dstOffset": 60,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Africa/Lubumbashi": {
-    "name": "Africa/Lubumbashi"
+    "stdOffset": 120,
+    "dstOffset": 120,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Africa/Lusaka": {
-    "name": "Africa/Lusaka"
+    "stdOffset": 120,
+    "dstOffset": 120,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Africa/Malabo": {
-    "name": "Africa/Malabo"
+    "stdOffset": 60,
+    "dstOffset": 60,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Africa/Maputo": {
-    "name": "Africa/Maputo"
+    "stdOffset": 120,
+    "dstOffset": 120,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Africa/Maseru": {
-    "name": "Africa/Maseru"
+    "stdOffset": 120,
+    "dstOffset": 120,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Africa/Mbabane": {
-    "name": "Africa/Mbabane"
+    "stdOffset": 120,
+    "dstOffset": 120,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Africa/Mogadishu": {
-    "name": "Africa/Mogadishu"
+    "stdOffset": 180,
+    "dstOffset": 180,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Africa/Monrovia": {
-    "name": "Africa/Monrovia"
+    "stdOffset": 0,
+    "dstOffset": 0,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Africa/Nairobi": {
-    "name": "Africa/Nairobi"
+    "stdOffset": 180,
+    "dstOffset": 180,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Africa/Ndjamena": {
-    "name": "Africa/Ndjamena"
+    "stdOffset": 60,
+    "dstOffset": 60,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Africa/Niamey": {
-    "name": "Africa/Niamey"
+    "stdOffset": 60,
+    "dstOffset": 60,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Africa/Nouakchott": {
-    "name": "Africa/Nouakchott"
+    "stdOffset": 0,
+    "dstOffset": 0,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Africa/Ouagadougou": {
-    "name": "Africa/Ouagadougou"
+    "stdOffset": 0,
+    "dstOffset": 0,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Africa/Porto-Novo": {
-    "name": "Africa/Porto-Novo"
+    "stdOffset": 60,
+    "dstOffset": 60,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Africa/Sao_Tome": {
-    "name": "Africa/Sao_Tome"
+    "stdOffset": 0,
+    "dstOffset": 0,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Africa/Timbuktu": {
-    "name": "Africa/Timbuktu"
+    "stdOffset": 0,
+    "dstOffset": 0,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Africa/Tripoli": {
-    "name": "Africa/Tripoli"
+    "stdOffset": 120,
+    "dstOffset": 120,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Africa/Tunis": {
-    "name": "Africa/Tunis"
+    "stdOffset": 60,
+    "dstOffset": 60,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Africa/Windhoek": {
-    "name": "Africa/Windhoek"
+    "stdOffset": 120,
+    "dstOffset": 120,
+    "dstStart": null,
+    "dstEnd": null
   },
   "America/Adak": {
-    "name": "America/Adak"
+    "stdOffset": -540,
+    "dstOffset": -600,
+    "dstStart": {
+      "month": 11,
+      "week": 1,
+      "dow": 0,
+      "hour": 1
+    },
+    "dstEnd": {
+      "month": 3,
+      "week": 2,
+      "dow": 0,
+      "hour": 2
+    }
   },
   "America/Anchorage": {
-    "name": "America/Anchorage"
+    "stdOffset": -480,
+    "dstOffset": -540,
+    "dstStart": {
+      "month": 11,
+      "week": 1,
+      "dow": 0,
+      "hour": 1
+    },
+    "dstEnd": {
+      "month": 3,
+      "week": 2,
+      "dow": 0,
+      "hour": 2
+    }
   },
   "America/Anguilla": {
-    "name": "America/Anguilla"
+    "stdOffset": -240,
+    "dstOffset": -240,
+    "dstStart": null,
+    "dstEnd": null
   },
   "America/Antigua": {
-    "name": "America/Antigua"
+    "stdOffset": -240,
+    "dstOffset": -240,
+    "dstStart": null,
+    "dstEnd": null
   },
   "America/Araguaina": {
-    "name": "America/Araguaina"
+    "stdOffset": -180,
+    "dstOffset": -180,
+    "dstStart": null,
+    "dstEnd": null
   },
   "America/Argentina/Buenos_Aires": {
-    "name": "America/Argentina/Buenos_Aires"
+    "stdOffset": -180,
+    "dstOffset": -180,
+    "dstStart": null,
+    "dstEnd": null
   },
   "America/Argentina/Catamarca": {
-    "name": "America/Argentina/Catamarca"
+    "stdOffset": -180,
+    "dstOffset": -180,
+    "dstStart": null,
+    "dstEnd": null
   },
   "America/Argentina/ComodRivadavia": {
-    "name": "America/Argentina/ComodRivadavia"
+    "stdOffset": -180,
+    "dstOffset": -180,
+    "dstStart": null,
+    "dstEnd": null
   },
   "America/Argentina/Cordoba": {
-    "name": "America/Argentina/Cordoba"
+    "stdOffset": -180,
+    "dstOffset": -180,
+    "dstStart": null,
+    "dstEnd": null
   },
   "America/Argentina/Jujuy": {
-    "name": "America/Argentina/Jujuy"
+    "stdOffset": -180,
+    "dstOffset": -180,
+    "dstStart": null,
+    "dstEnd": null
   },
   "America/Argentina/La_Rioja": {
-    "name": "America/Argentina/La_Rioja"
+    "stdOffset": -180,
+    "dstOffset": -180,
+    "dstStart": null,
+    "dstEnd": null
   },
   "America/Argentina/Mendoza": {
-    "name": "America/Argentina/Mendoza"
+    "stdOffset": -180,
+    "dstOffset": -180,
+    "dstStart": null,
+    "dstEnd": null
   },
   "America/Argentina/Rio_Gallegos": {
-    "name": "America/Argentina/Rio_Gallegos"
+    "stdOffset": -180,
+    "dstOffset": -180,
+    "dstStart": null,
+    "dstEnd": null
   },
   "America/Argentina/Salta": {
-    "name": "America/Argentina/Salta"
+    "stdOffset": -180,
+    "dstOffset": -180,
+    "dstStart": null,
+    "dstEnd": null
   },
   "America/Argentina/San_Juan": {
-    "name": "America/Argentina/San_Juan"
+    "stdOffset": -180,
+    "dstOffset": -180,
+    "dstStart": null,
+    "dstEnd": null
   },
   "America/Argentina/San_Luis": {
-    "name": "America/Argentina/San_Luis"
+    "stdOffset": -180,
+    "dstOffset": -180,
+    "dstStart": null,
+    "dstEnd": null
   },
   "America/Argentina/Tucuman": {
-    "name": "America/Argentina/Tucuman"
+    "stdOffset": -180,
+    "dstOffset": -180,
+    "dstStart": null,
+    "dstEnd": null
   },
   "America/Argentina/Ushuaia": {
-    "name": "America/Argentina/Ushuaia"
+    "stdOffset": -180,
+    "dstOffset": -180,
+    "dstStart": null,
+    "dstEnd": null
   },
   "America/Aruba": {
-    "name": "America/Aruba"
+    "stdOffset": -240,
+    "dstOffset": -240,
+    "dstStart": null,
+    "dstEnd": null
   },
   "America/Asuncion": {
-    "name": "America/Asuncion"
+    "stdOffset": -180,
+    "dstOffset": -180,
+    "dstStart": null,
+    "dstEnd": null
   },
   "America/Atikokan": {
-    "name": "America/Atikokan"
+    "stdOffset": -300,
+    "dstOffset": -300,
+    "dstStart": null,
+    "dstEnd": null
   },
   "America/Atka": {
-    "name": "America/Atka"
+    "stdOffset": -540,
+    "dstOffset": -600,
+    "dstStart": {
+      "month": 11,
+      "week": 1,
+      "dow": 0,
+      "hour": 1
+    },
+    "dstEnd": {
+      "month": 3,
+      "week": 2,
+      "dow": 0,
+      "hour": 2
+    }
   },
   "America/Bahia": {
-    "name": "America/Bahia"
+    "stdOffset": -180,
+    "dstOffset": -180,
+    "dstStart": null,
+    "dstEnd": null
   },
   "America/Bahia_Banderas": {
-    "name": "America/Bahia_Banderas"
+    "stdOffset": -360,
+    "dstOffset": -360,
+    "dstStart": null,
+    "dstEnd": null
   },
   "America/Barbados": {
-    "name": "America/Barbados"
+    "stdOffset": -240,
+    "dstOffset": -240,
+    "dstStart": null,
+    "dstEnd": null
   },
   "America/Belem": {
-    "name": "America/Belem"
+    "stdOffset": -180,
+    "dstOffset": -180,
+    "dstStart": null,
+    "dstEnd": null
   },
   "America/Belize": {
-    "name": "America/Belize"
+    "stdOffset": -360,
+    "dstOffset": -360,
+    "dstStart": null,
+    "dstEnd": null
   },
   "America/Blanc-Sablon": {
-    "name": "America/Blanc-Sablon"
+    "stdOffset": -240,
+    "dstOffset": -240,
+    "dstStart": null,
+    "dstEnd": null
   },
   "America/Boa_Vista": {
-    "name": "America/Boa_Vista"
+    "stdOffset": -240,
+    "dstOffset": -240,
+    "dstStart": null,
+    "dstEnd": null
   },
   "America/Bogota": {
-    "name": "America/Bogota"
+    "stdOffset": -300,
+    "dstOffset": -300,
+    "dstStart": null,
+    "dstEnd": null
   },
   "America/Boise": {
-    "name": "America/Boise"
+    "stdOffset": -360,
+    "dstOffset": -420,
+    "dstStart": {
+      "month": 11,
+      "week": 1,
+      "dow": 0,
+      "hour": 1
+    },
+    "dstEnd": {
+      "month": 3,
+      "week": 2,
+      "dow": 0,
+      "hour": 2
+    }
   },
   "America/Buenos_Aires": {
-    "name": "America/Buenos_Aires"
+    "stdOffset": -180,
+    "dstOffset": -180,
+    "dstStart": null,
+    "dstEnd": null
   },
   "America/Cambridge_Bay": {
-    "name": "America/Cambridge_Bay"
+    "stdOffset": -360,
+    "dstOffset": -420,
+    "dstStart": {
+      "month": 11,
+      "week": 1,
+      "dow": 0,
+      "hour": 1
+    },
+    "dstEnd": {
+      "month": 3,
+      "week": 2,
+      "dow": 0,
+      "hour": 2
+    }
   },
   "America/Campo_Grande": {
-    "name": "America/Campo_Grande"
+    "stdOffset": -240,
+    "dstOffset": -240,
+    "dstStart": null,
+    "dstEnd": null
   },
   "America/Cancun": {
-    "name": "America/Cancun"
+    "stdOffset": -300,
+    "dstOffset": -300,
+    "dstStart": null,
+    "dstEnd": null
   },
   "America/Caracas": {
-    "name": "America/Caracas"
+    "stdOffset": -240,
+    "dstOffset": -240,
+    "dstStart": null,
+    "dstEnd": null
   },
   "America/Catamarca": {
-    "name": "America/Catamarca"
+    "stdOffset": -180,
+    "dstOffset": -180,
+    "dstStart": null,
+    "dstEnd": null
   },
   "America/Cayenne": {
-    "name": "America/Cayenne"
+    "stdOffset": -180,
+    "dstOffset": -180,
+    "dstStart": null,
+    "dstEnd": null
   },
   "America/Cayman": {
-    "name": "America/Cayman"
+    "stdOffset": -300,
+    "dstOffset": -300,
+    "dstStart": null,
+    "dstEnd": null
   },
   "America/Chicago": {
-    "name": "America/Chicago"
+    "stdOffset": -300,
+    "dstOffset": -360,
+    "dstStart": {
+      "month": 11,
+      "week": 1,
+      "dow": 0,
+      "hour": 1
+    },
+    "dstEnd": {
+      "month": 3,
+      "week": 2,
+      "dow": 0,
+      "hour": 2
+    }
   },
   "America/Chihuahua": {
-    "name": "America/Chihuahua"
+    "stdOffset": -360,
+    "dstOffset": -360,
+    "dstStart": null,
+    "dstEnd": null
   },
   "America/Ciudad_Juarez": {
-    "name": "America/Ciudad_Juarez"
+    "stdOffset": -360,
+    "dstOffset": -420,
+    "dstStart": {
+      "month": 11,
+      "week": 1,
+      "dow": 0,
+      "hour": 1
+    },
+    "dstEnd": {
+      "month": 3,
+      "week": 2,
+      "dow": 0,
+      "hour": 2
+    }
   },
   "America/Coral_Harbour": {
-    "name": "America/Coral_Harbour"
+    "stdOffset": -300,
+    "dstOffset": -300,
+    "dstStart": null,
+    "dstEnd": null
   },
   "America/Cordoba": {
-    "name": "America/Cordoba"
+    "stdOffset": -180,
+    "dstOffset": -180,
+    "dstStart": null,
+    "dstEnd": null
   },
   "America/Costa_Rica": {
-    "name": "America/Costa_Rica"
+    "stdOffset": -360,
+    "dstOffset": -360,
+    "dstStart": null,
+    "dstEnd": null
   },
   "America/Coyhaique": {
-    "name": "America/Coyhaique"
+    "stdOffset": -180,
+    "dstOffset": -180,
+    "dstStart": null,
+    "dstEnd": null
   },
   "America/Creston": {
-    "name": "America/Creston"
+    "stdOffset": -420,
+    "dstOffset": -420,
+    "dstStart": null,
+    "dstEnd": null
   },
   "America/Cuiaba": {
-    "name": "America/Cuiaba"
+    "stdOffset": -240,
+    "dstOffset": -240,
+    "dstStart": null,
+    "dstEnd": null
   },
   "America/Curacao": {
-    "name": "America/Curacao"
+    "stdOffset": -240,
+    "dstOffset": -240,
+    "dstStart": null,
+    "dstEnd": null
   },
   "America/Danmarkshavn": {
-    "name": "America/Danmarkshavn"
+    "stdOffset": 0,
+    "dstOffset": 0,
+    "dstStart": null,
+    "dstEnd": null
   },
   "America/Dawson": {
-    "name": "America/Dawson"
+    "stdOffset": -420,
+    "dstOffset": -420,
+    "dstStart": null,
+    "dstEnd": null
   },
   "America/Dawson_Creek": {
-    "name": "America/Dawson_Creek"
+    "stdOffset": -420,
+    "dstOffset": -420,
+    "dstStart": null,
+    "dstEnd": null
   },
   "America/Denver": {
-    "name": "America/Denver"
+    "stdOffset": -360,
+    "dstOffset": -420,
+    "dstStart": {
+      "month": 11,
+      "week": 1,
+      "dow": 0,
+      "hour": 1
+    },
+    "dstEnd": {
+      "month": 3,
+      "week": 2,
+      "dow": 0,
+      "hour": 2
+    }
   },
   "America/Detroit": {
-    "name": "America/Detroit"
+    "stdOffset": -240,
+    "dstOffset": -300,
+    "dstStart": {
+      "month": 11,
+      "week": 1,
+      "dow": 0,
+      "hour": 1
+    },
+    "dstEnd": {
+      "month": 3,
+      "week": 2,
+      "dow": 0,
+      "hour": 2
+    }
   },
   "America/Dominica": {
-    "name": "America/Dominica"
+    "stdOffset": -240,
+    "dstOffset": -240,
+    "dstStart": null,
+    "dstEnd": null
   },
   "America/Edmonton": {
-    "name": "America/Edmonton"
+    "stdOffset": -360,
+    "dstOffset": -420,
+    "dstStart": {
+      "month": 11,
+      "week": 1,
+      "dow": 0,
+      "hour": 1
+    },
+    "dstEnd": {
+      "month": 3,
+      "week": 2,
+      "dow": 0,
+      "hour": 2
+    }
   },
   "America/Eirunepe": {
-    "name": "America/Eirunepe"
+    "stdOffset": -300,
+    "dstOffset": -300,
+    "dstStart": null,
+    "dstEnd": null
   },
   "America/El_Salvador": {
-    "name": "America/El_Salvador"
+    "stdOffset": -360,
+    "dstOffset": -360,
+    "dstStart": null,
+    "dstEnd": null
   },
   "America/Ensenada": {
-    "name": "America/Ensenada"
+    "stdOffset": -420,
+    "dstOffset": -480,
+    "dstStart": {
+      "month": 11,
+      "week": 1,
+      "dow": 0,
+      "hour": 1
+    },
+    "dstEnd": {
+      "month": 3,
+      "week": 2,
+      "dow": 0,
+      "hour": 2
+    }
   },
   "America/Fort_Nelson": {
-    "name": "America/Fort_Nelson"
+    "stdOffset": -420,
+    "dstOffset": -420,
+    "dstStart": null,
+    "dstEnd": null
   },
   "America/Fort_Wayne": {
-    "name": "America/Fort_Wayne"
+    "stdOffset": -240,
+    "dstOffset": -300,
+    "dstStart": {
+      "month": 11,
+      "week": 1,
+      "dow": 0,
+      "hour": 1
+    },
+    "dstEnd": {
+      "month": 3,
+      "week": 2,
+      "dow": 0,
+      "hour": 2
+    }
   },
   "America/Fortaleza": {
-    "name": "America/Fortaleza"
+    "stdOffset": -180,
+    "dstOffset": -180,
+    "dstStart": null,
+    "dstEnd": null
   },
   "America/Glace_Bay": {
-    "name": "America/Glace_Bay"
+    "stdOffset": -180,
+    "dstOffset": -240,
+    "dstStart": {
+      "month": 11,
+      "week": 1,
+      "dow": 0,
+      "hour": 1
+    },
+    "dstEnd": {
+      "month": 3,
+      "week": 2,
+      "dow": 0,
+      "hour": 2
+    }
   },
   "America/Godthab": {
-    "name": "America/Godthab"
+    "stdOffset": -60,
+    "dstOffset": -120,
+    "dstStart": {
+      "month": 10,
+      "week": 4,
+      "dow": 6,
+      "hour": 23
+    },
+    "dstEnd": {
+      "month": 3,
+      "week": 0,
+      "dow": 6,
+      "hour": 23
+    }
   },
   "America/Goose_Bay": {
-    "name": "America/Goose_Bay"
+    "stdOffset": -180,
+    "dstOffset": -240,
+    "dstStart": {
+      "month": 11,
+      "week": 1,
+      "dow": 0,
+      "hour": 1
+    },
+    "dstEnd": {
+      "month": 3,
+      "week": 2,
+      "dow": 0,
+      "hour": 2
+    }
   },
   "America/Grand_Turk": {
-    "name": "America/Grand_Turk"
+    "stdOffset": -240,
+    "dstOffset": -300,
+    "dstStart": {
+      "month": 11,
+      "week": 1,
+      "dow": 0,
+      "hour": 1
+    },
+    "dstEnd": {
+      "month": 3,
+      "week": 2,
+      "dow": 0,
+      "hour": 2
+    }
   },
   "America/Grenada": {
-    "name": "America/Grenada"
+    "stdOffset": -240,
+    "dstOffset": -240,
+    "dstStart": null,
+    "dstEnd": null
   },
   "America/Guadeloupe": {
-    "name": "America/Guadeloupe"
+    "stdOffset": -240,
+    "dstOffset": -240,
+    "dstStart": null,
+    "dstEnd": null
   },
   "America/Guatemala": {
-    "name": "America/Guatemala"
+    "stdOffset": -360,
+    "dstOffset": -360,
+    "dstStart": null,
+    "dstEnd": null
   },
   "America/Guayaquil": {
-    "name": "America/Guayaquil"
+    "stdOffset": -300,
+    "dstOffset": -300,
+    "dstStart": null,
+    "dstEnd": null
   },
   "America/Guyana": {
-    "name": "America/Guyana"
+    "stdOffset": -240,
+    "dstOffset": -240,
+    "dstStart": null,
+    "dstEnd": null
   },
   "America/Halifax": {
-    "name": "America/Halifax"
+    "stdOffset": -180,
+    "dstOffset": -240,
+    "dstStart": {
+      "month": 11,
+      "week": 1,
+      "dow": 0,
+      "hour": 1
+    },
+    "dstEnd": {
+      "month": 3,
+      "week": 2,
+      "dow": 0,
+      "hour": 2
+    }
   },
   "America/Havana": {
-    "name": "America/Havana"
+    "stdOffset": -240,
+    "dstOffset": -300,
+    "dstStart": {
+      "month": 11,
+      "week": 1,
+      "dow": 0,
+      "hour": 0
+    },
+    "dstEnd": {
+      "month": 3,
+      "week": 2,
+      "dow": 0,
+      "hour": 0
+    }
   },
   "America/Hermosillo": {
-    "name": "America/Hermosillo"
+    "stdOffset": -420,
+    "dstOffset": -420,
+    "dstStart": null,
+    "dstEnd": null
   },
   "America/Indiana/Indianapolis": {
-    "name": "America/Indiana/Indianapolis"
+    "stdOffset": -240,
+    "dstOffset": -300,
+    "dstStart": {
+      "month": 11,
+      "week": 1,
+      "dow": 0,
+      "hour": 1
+    },
+    "dstEnd": {
+      "month": 3,
+      "week": 2,
+      "dow": 0,
+      "hour": 2
+    }
   },
   "America/Indiana/Knox": {
-    "name": "America/Indiana/Knox"
+    "stdOffset": -300,
+    "dstOffset": -360,
+    "dstStart": {
+      "month": 11,
+      "week": 1,
+      "dow": 0,
+      "hour": 1
+    },
+    "dstEnd": {
+      "month": 3,
+      "week": 2,
+      "dow": 0,
+      "hour": 2
+    }
   },
   "America/Indiana/Marengo": {
-    "name": "America/Indiana/Marengo"
+    "stdOffset": -240,
+    "dstOffset": -300,
+    "dstStart": {
+      "month": 11,
+      "week": 1,
+      "dow": 0,
+      "hour": 1
+    },
+    "dstEnd": {
+      "month": 3,
+      "week": 2,
+      "dow": 0,
+      "hour": 2
+    }
   },
   "America/Indiana/Petersburg": {
-    "name": "America/Indiana/Petersburg"
+    "stdOffset": -240,
+    "dstOffset": -300,
+    "dstStart": {
+      "month": 11,
+      "week": 1,
+      "dow": 0,
+      "hour": 1
+    },
+    "dstEnd": {
+      "month": 3,
+      "week": 2,
+      "dow": 0,
+      "hour": 2
+    }
   },
   "America/Indiana/Tell_City": {
-    "name": "America/Indiana/Tell_City"
+    "stdOffset": -300,
+    "dstOffset": -360,
+    "dstStart": {
+      "month": 11,
+      "week": 1,
+      "dow": 0,
+      "hour": 1
+    },
+    "dstEnd": {
+      "month": 3,
+      "week": 2,
+      "dow": 0,
+      "hour": 2
+    }
   },
   "America/Indiana/Vevay": {
-    "name": "America/Indiana/Vevay"
+    "stdOffset": -240,
+    "dstOffset": -300,
+    "dstStart": {
+      "month": 11,
+      "week": 1,
+      "dow": 0,
+      "hour": 1
+    },
+    "dstEnd": {
+      "month": 3,
+      "week": 2,
+      "dow": 0,
+      "hour": 2
+    }
   },
   "America/Indiana/Vincennes": {
-    "name": "America/Indiana/Vincennes"
+    "stdOffset": -240,
+    "dstOffset": -300,
+    "dstStart": {
+      "month": 11,
+      "week": 1,
+      "dow": 0,
+      "hour": 1
+    },
+    "dstEnd": {
+      "month": 3,
+      "week": 2,
+      "dow": 0,
+      "hour": 2
+    }
   },
   "America/Indiana/Winamac": {
-    "name": "America/Indiana/Winamac"
+    "stdOffset": -240,
+    "dstOffset": -300,
+    "dstStart": {
+      "month": 11,
+      "week": 1,
+      "dow": 0,
+      "hour": 1
+    },
+    "dstEnd": {
+      "month": 3,
+      "week": 2,
+      "dow": 0,
+      "hour": 2
+    }
   },
   "America/Indianapolis": {
-    "name": "America/Indianapolis"
+    "stdOffset": -240,
+    "dstOffset": -300,
+    "dstStart": {
+      "month": 11,
+      "week": 1,
+      "dow": 0,
+      "hour": 1
+    },
+    "dstEnd": {
+      "month": 3,
+      "week": 2,
+      "dow": 0,
+      "hour": 2
+    }
   },
   "America/Inuvik": {
-    "name": "America/Inuvik"
+    "stdOffset": -360,
+    "dstOffset": -420,
+    "dstStart": {
+      "month": 11,
+      "week": 1,
+      "dow": 0,
+      "hour": 1
+    },
+    "dstEnd": {
+      "month": 3,
+      "week": 2,
+      "dow": 0,
+      "hour": 2
+    }
   },
   "America/Iqaluit": {
-    "name": "America/Iqaluit"
+    "stdOffset": -240,
+    "dstOffset": -300,
+    "dstStart": {
+      "month": 11,
+      "week": 1,
+      "dow": 0,
+      "hour": 1
+    },
+    "dstEnd": {
+      "month": 3,
+      "week": 2,
+      "dow": 0,
+      "hour": 2
+    }
   },
   "America/Jamaica": {
-    "name": "America/Jamaica"
+    "stdOffset": -300,
+    "dstOffset": -300,
+    "dstStart": null,
+    "dstEnd": null
   },
   "America/Jujuy": {
-    "name": "America/Jujuy"
+    "stdOffset": -180,
+    "dstOffset": -180,
+    "dstStart": null,
+    "dstEnd": null
   },
   "America/Juneau": {
-    "name": "America/Juneau"
+    "stdOffset": -480,
+    "dstOffset": -540,
+    "dstStart": {
+      "month": 11,
+      "week": 1,
+      "dow": 0,
+      "hour": 1
+    },
+    "dstEnd": {
+      "month": 3,
+      "week": 2,
+      "dow": 0,
+      "hour": 2
+    }
   },
   "America/Kentucky/Louisville": {
-    "name": "America/Kentucky/Louisville"
+    "stdOffset": -240,
+    "dstOffset": -300,
+    "dstStart": {
+      "month": 11,
+      "week": 1,
+      "dow": 0,
+      "hour": 1
+    },
+    "dstEnd": {
+      "month": 3,
+      "week": 2,
+      "dow": 0,
+      "hour": 2
+    }
   },
   "America/Kentucky/Monticello": {
-    "name": "America/Kentucky/Monticello"
+    "stdOffset": -240,
+    "dstOffset": -300,
+    "dstStart": {
+      "month": 11,
+      "week": 1,
+      "dow": 0,
+      "hour": 1
+    },
+    "dstEnd": {
+      "month": 3,
+      "week": 2,
+      "dow": 0,
+      "hour": 2
+    }
   },
   "America/Knox_IN": {
-    "name": "America/Knox_IN"
+    "stdOffset": -300,
+    "dstOffset": -360,
+    "dstStart": {
+      "month": 11,
+      "week": 1,
+      "dow": 0,
+      "hour": 1
+    },
+    "dstEnd": {
+      "month": 3,
+      "week": 2,
+      "dow": 0,
+      "hour": 2
+    }
   },
   "America/Kralendijk": {
-    "name": "America/Kralendijk"
+    "stdOffset": -240,
+    "dstOffset": -240,
+    "dstStart": null,
+    "dstEnd": null
   },
   "America/La_Paz": {
-    "name": "America/La_Paz"
+    "stdOffset": -240,
+    "dstOffset": -240,
+    "dstStart": null,
+    "dstEnd": null
   },
   "America/Lima": {
-    "name": "America/Lima"
+    "stdOffset": -300,
+    "dstOffset": -300,
+    "dstStart": null,
+    "dstEnd": null
   },
   "America/Los_Angeles": {
-    "name": "America/Los_Angeles"
+    "stdOffset": -420,
+    "dstOffset": -480,
+    "dstStart": {
+      "month": 11,
+      "week": 1,
+      "dow": 0,
+      "hour": 1
+    },
+    "dstEnd": {
+      "month": 3,
+      "week": 2,
+      "dow": 0,
+      "hour": 2
+    }
   },
   "America/Louisville": {
-    "name": "America/Louisville"
+    "stdOffset": -240,
+    "dstOffset": -300,
+    "dstStart": {
+      "month": 11,
+      "week": 1,
+      "dow": 0,
+      "hour": 1
+    },
+    "dstEnd": {
+      "month": 3,
+      "week": 2,
+      "dow": 0,
+      "hour": 2
+    }
   },
   "America/Lower_Princes": {
-    "name": "America/Lower_Princes"
+    "stdOffset": -240,
+    "dstOffset": -240,
+    "dstStart": null,
+    "dstEnd": null
   },
   "America/Maceio": {
-    "name": "America/Maceio"
+    "stdOffset": -180,
+    "dstOffset": -180,
+    "dstStart": null,
+    "dstEnd": null
   },
   "America/Managua": {
-    "name": "America/Managua"
+    "stdOffset": -360,
+    "dstOffset": -360,
+    "dstStart": null,
+    "dstEnd": null
   },
   "America/Manaus": {
-    "name": "America/Manaus"
+    "stdOffset": -240,
+    "dstOffset": -240,
+    "dstStart": null,
+    "dstEnd": null
   },
   "America/Marigot": {
-    "name": "America/Marigot"
+    "stdOffset": -240,
+    "dstOffset": -240,
+    "dstStart": null,
+    "dstEnd": null
   },
   "America/Martinique": {
-    "name": "America/Martinique"
+    "stdOffset": -240,
+    "dstOffset": -240,
+    "dstStart": null,
+    "dstEnd": null
   },
   "America/Matamoros": {
-    "name": "America/Matamoros"
+    "stdOffset": -300,
+    "dstOffset": -360,
+    "dstStart": {
+      "month": 11,
+      "week": 1,
+      "dow": 0,
+      "hour": 1
+    },
+    "dstEnd": {
+      "month": 3,
+      "week": 2,
+      "dow": 0,
+      "hour": 2
+    }
   },
   "America/Mazatlan": {
-    "name": "America/Mazatlan"
+    "stdOffset": -420,
+    "dstOffset": -420,
+    "dstStart": null,
+    "dstEnd": null
   },
   "America/Mendoza": {
-    "name": "America/Mendoza"
+    "stdOffset": -180,
+    "dstOffset": -180,
+    "dstStart": null,
+    "dstEnd": null
   },
   "America/Menominee": {
-    "name": "America/Menominee"
+    "stdOffset": -300,
+    "dstOffset": -360,
+    "dstStart": {
+      "month": 11,
+      "week": 1,
+      "dow": 0,
+      "hour": 1
+    },
+    "dstEnd": {
+      "month": 3,
+      "week": 2,
+      "dow": 0,
+      "hour": 2
+    }
   },
   "America/Merida": {
-    "name": "America/Merida"
+    "stdOffset": -360,
+    "dstOffset": -360,
+    "dstStart": null,
+    "dstEnd": null
   },
   "America/Metlakatla": {
-    "name": "America/Metlakatla"
+    "stdOffset": -480,
+    "dstOffset": -540,
+    "dstStart": {
+      "month": 11,
+      "week": 1,
+      "dow": 0,
+      "hour": 1
+    },
+    "dstEnd": {
+      "month": 3,
+      "week": 2,
+      "dow": 0,
+      "hour": 2
+    }
   },
   "America/Mexico_City": {
-    "name": "America/Mexico_City"
+    "stdOffset": -360,
+    "dstOffset": -360,
+    "dstStart": null,
+    "dstEnd": null
   },
   "America/Miquelon": {
-    "name": "America/Miquelon"
+    "stdOffset": -120,
+    "dstOffset": -180,
+    "dstStart": {
+      "month": 11,
+      "week": 1,
+      "dow": 0,
+      "hour": 1
+    },
+    "dstEnd": {
+      "month": 3,
+      "week": 2,
+      "dow": 0,
+      "hour": 2
+    }
   },
   "America/Moncton": {
-    "name": "America/Moncton"
+    "stdOffset": -180,
+    "dstOffset": -240,
+    "dstStart": {
+      "month": 11,
+      "week": 1,
+      "dow": 0,
+      "hour": 1
+    },
+    "dstEnd": {
+      "month": 3,
+      "week": 2,
+      "dow": 0,
+      "hour": 2
+    }
   },
   "America/Monterrey": {
-    "name": "America/Monterrey"
+    "stdOffset": -360,
+    "dstOffset": -360,
+    "dstStart": null,
+    "dstEnd": null
   },
   "America/Montevideo": {
-    "name": "America/Montevideo"
+    "stdOffset": -180,
+    "dstOffset": -180,
+    "dstStart": null,
+    "dstEnd": null
   },
   "America/Montreal": {
-    "name": "America/Montreal"
+    "stdOffset": -240,
+    "dstOffset": -300,
+    "dstStart": {
+      "month": 11,
+      "week": 1,
+      "dow": 0,
+      "hour": 1
+    },
+    "dstEnd": {
+      "month": 3,
+      "week": 2,
+      "dow": 0,
+      "hour": 2
+    }
   },
   "America/Montserrat": {
-    "name": "America/Montserrat"
+    "stdOffset": -240,
+    "dstOffset": -240,
+    "dstStart": null,
+    "dstEnd": null
   },
   "America/Nassau": {
-    "name": "America/Nassau"
+    "stdOffset": -240,
+    "dstOffset": -300,
+    "dstStart": {
+      "month": 11,
+      "week": 1,
+      "dow": 0,
+      "hour": 1
+    },
+    "dstEnd": {
+      "month": 3,
+      "week": 2,
+      "dow": 0,
+      "hour": 2
+    }
   },
   "America/New_York": {
-    "name": "America/New_York"
+    "stdOffset": -240,
+    "dstOffset": -300,
+    "dstStart": {
+      "month": 11,
+      "week": 1,
+      "dow": 0,
+      "hour": 1
+    },
+    "dstEnd": {
+      "month": 3,
+      "week": 2,
+      "dow": 0,
+      "hour": 2
+    }
   },
   "America/Nipigon": {
-    "name": "America/Nipigon"
+    "stdOffset": -240,
+    "dstOffset": -300,
+    "dstStart": {
+      "month": 11,
+      "week": 1,
+      "dow": 0,
+      "hour": 1
+    },
+    "dstEnd": {
+      "month": 3,
+      "week": 2,
+      "dow": 0,
+      "hour": 2
+    }
   },
   "America/Nome": {
-    "name": "America/Nome"
+    "stdOffset": -480,
+    "dstOffset": -540,
+    "dstStart": {
+      "month": 11,
+      "week": 1,
+      "dow": 0,
+      "hour": 1
+    },
+    "dstEnd": {
+      "month": 3,
+      "week": 2,
+      "dow": 0,
+      "hour": 2
+    }
   },
   "America/Noronha": {
-    "name": "America/Noronha"
+    "stdOffset": -120,
+    "dstOffset": -120,
+    "dstStart": null,
+    "dstEnd": null
   },
   "America/North_Dakota/Beulah": {
-    "name": "America/North_Dakota/Beulah"
+    "stdOffset": -300,
+    "dstOffset": -360,
+    "dstStart": {
+      "month": 11,
+      "week": 1,
+      "dow": 0,
+      "hour": 1
+    },
+    "dstEnd": {
+      "month": 3,
+      "week": 2,
+      "dow": 0,
+      "hour": 2
+    }
   },
   "America/North_Dakota/Center": {
-    "name": "America/North_Dakota/Center"
+    "stdOffset": -300,
+    "dstOffset": -360,
+    "dstStart": {
+      "month": 11,
+      "week": 1,
+      "dow": 0,
+      "hour": 1
+    },
+    "dstEnd": {
+      "month": 3,
+      "week": 2,
+      "dow": 0,
+      "hour": 2
+    }
   },
   "America/North_Dakota/New_Salem": {
-    "name": "America/North_Dakota/New_Salem"
+    "stdOffset": -300,
+    "dstOffset": -360,
+    "dstStart": {
+      "month": 11,
+      "week": 1,
+      "dow": 0,
+      "hour": 1
+    },
+    "dstEnd": {
+      "month": 3,
+      "week": 2,
+      "dow": 0,
+      "hour": 2
+    }
   },
   "America/Nuuk": {
-    "name": "America/Nuuk"
+    "stdOffset": -60,
+    "dstOffset": -120,
+    "dstStart": {
+      "month": 10,
+      "week": 4,
+      "dow": 6,
+      "hour": 23
+    },
+    "dstEnd": {
+      "month": 3,
+      "week": 0,
+      "dow": 6,
+      "hour": 23
+    }
   },
   "America/Ojinaga": {
-    "name": "America/Ojinaga"
+    "stdOffset": -300,
+    "dstOffset": -360,
+    "dstStart": {
+      "month": 11,
+      "week": 1,
+      "dow": 0,
+      "hour": 1
+    },
+    "dstEnd": {
+      "month": 3,
+      "week": 2,
+      "dow": 0,
+      "hour": 2
+    }
   },
   "America/Panama": {
-    "name": "America/Panama"
+    "stdOffset": -300,
+    "dstOffset": -300,
+    "dstStart": null,
+    "dstEnd": null
   },
   "America/Pangnirtung": {
-    "name": "America/Pangnirtung"
+    "stdOffset": -240,
+    "dstOffset": -300,
+    "dstStart": {
+      "month": 11,
+      "week": 1,
+      "dow": 0,
+      "hour": 1
+    },
+    "dstEnd": {
+      "month": 3,
+      "week": 2,
+      "dow": 0,
+      "hour": 2
+    }
   },
   "America/Paramaribo": {
-    "name": "America/Paramaribo"
+    "stdOffset": -180,
+    "dstOffset": -180,
+    "dstStart": null,
+    "dstEnd": null
   },
   "America/Phoenix": {
-    "name": "America/Phoenix"
+    "stdOffset": -420,
+    "dstOffset": -420,
+    "dstStart": null,
+    "dstEnd": null
   },
   "America/Port-au-Prince": {
-    "name": "America/Port-au-Prince"
+    "stdOffset": -240,
+    "dstOffset": -300,
+    "dstStart": {
+      "month": 11,
+      "week": 1,
+      "dow": 0,
+      "hour": 1
+    },
+    "dstEnd": {
+      "month": 3,
+      "week": 2,
+      "dow": 0,
+      "hour": 2
+    }
   },
   "America/Port_of_Spain": {
-    "name": "America/Port_of_Spain"
+    "stdOffset": -240,
+    "dstOffset": -240,
+    "dstStart": null,
+    "dstEnd": null
   },
   "America/Porto_Acre": {
-    "name": "America/Porto_Acre"
+    "stdOffset": -300,
+    "dstOffset": -300,
+    "dstStart": null,
+    "dstEnd": null
   },
   "America/Porto_Velho": {
-    "name": "America/Porto_Velho"
+    "stdOffset": -240,
+    "dstOffset": -240,
+    "dstStart": null,
+    "dstEnd": null
   },
   "America/Puerto_Rico": {
-    "name": "America/Puerto_Rico"
+    "stdOffset": -240,
+    "dstOffset": -240,
+    "dstStart": null,
+    "dstEnd": null
   },
   "America/Punta_Arenas": {
-    "name": "America/Punta_Arenas"
+    "stdOffset": -180,
+    "dstOffset": -180,
+    "dstStart": null,
+    "dstEnd": null
   },
   "America/Rainy_River": {
-    "name": "America/Rainy_River"
+    "stdOffset": -300,
+    "dstOffset": -360,
+    "dstStart": {
+      "month": 11,
+      "week": 1,
+      "dow": 0,
+      "hour": 1
+    },
+    "dstEnd": {
+      "month": 3,
+      "week": 2,
+      "dow": 0,
+      "hour": 2
+    }
   },
   "America/Rankin_Inlet": {
-    "name": "America/Rankin_Inlet"
+    "stdOffset": -300,
+    "dstOffset": -360,
+    "dstStart": {
+      "month": 11,
+      "week": 1,
+      "dow": 0,
+      "hour": 1
+    },
+    "dstEnd": {
+      "month": 3,
+      "week": 2,
+      "dow": 0,
+      "hour": 2
+    }
   },
   "America/Recife": {
-    "name": "America/Recife"
+    "stdOffset": -180,
+    "dstOffset": -180,
+    "dstStart": null,
+    "dstEnd": null
   },
   "America/Regina": {
-    "name": "America/Regina"
+    "stdOffset": -360,
+    "dstOffset": -360,
+    "dstStart": null,
+    "dstEnd": null
   },
   "America/Resolute": {
-    "name": "America/Resolute"
+    "stdOffset": -300,
+    "dstOffset": -360,
+    "dstStart": {
+      "month": 11,
+      "week": 1,
+      "dow": 0,
+      "hour": 1
+    },
+    "dstEnd": {
+      "month": 3,
+      "week": 2,
+      "dow": 0,
+      "hour": 2
+    }
   },
   "America/Rio_Branco": {
-    "name": "America/Rio_Branco"
+    "stdOffset": -300,
+    "dstOffset": -300,
+    "dstStart": null,
+    "dstEnd": null
   },
   "America/Rosario": {
-    "name": "America/Rosario"
+    "stdOffset": -180,
+    "dstOffset": -180,
+    "dstStart": null,
+    "dstEnd": null
   },
   "America/Santa_Isabel": {
-    "name": "America/Santa_Isabel"
+    "stdOffset": -420,
+    "dstOffset": -480,
+    "dstStart": {
+      "month": 11,
+      "week": 1,
+      "dow": 0,
+      "hour": 1
+    },
+    "dstEnd": {
+      "month": 3,
+      "week": 2,
+      "dow": 0,
+      "hour": 2
+    }
   },
   "America/Santarem": {
-    "name": "America/Santarem"
+    "stdOffset": -180,
+    "dstOffset": -180,
+    "dstStart": null,
+    "dstEnd": null
   },
   "America/Santiago": {
-    "name": "America/Santiago"
+    "stdOffset": -180,
+    "dstOffset": -240,
+    "dstStart": {
+      "month": 4,
+      "week": 1,
+      "dow": 6,
+      "hour": 23
+    },
+    "dstEnd": {
+      "month": 9,
+      "week": 1,
+      "dow": 0,
+      "hour": 0
+    }
   },
   "America/Santo_Domingo": {
-    "name": "America/Santo_Domingo"
+    "stdOffset": -240,
+    "dstOffset": -240,
+    "dstStart": null,
+    "dstEnd": null
   },
   "America/Sao_Paulo": {
-    "name": "America/Sao_Paulo"
+    "stdOffset": -180,
+    "dstOffset": -180,
+    "dstStart": null,
+    "dstEnd": null
   },
   "America/Scoresbysund": {
-    "name": "America/Scoresbysund"
+    "stdOffset": -60,
+    "dstOffset": -120,
+    "dstStart": {
+      "month": 10,
+      "week": 4,
+      "dow": 6,
+      "hour": 23
+    },
+    "dstEnd": {
+      "month": 3,
+      "week": 0,
+      "dow": 6,
+      "hour": 23
+    }
   },
   "America/Shiprock": {
-    "name": "America/Shiprock"
+    "stdOffset": -360,
+    "dstOffset": -420,
+    "dstStart": {
+      "month": 11,
+      "week": 1,
+      "dow": 0,
+      "hour": 1
+    },
+    "dstEnd": {
+      "month": 3,
+      "week": 2,
+      "dow": 0,
+      "hour": 2
+    }
   },
   "America/Sitka": {
-    "name": "America/Sitka"
+    "stdOffset": -480,
+    "dstOffset": -540,
+    "dstStart": {
+      "month": 11,
+      "week": 1,
+      "dow": 0,
+      "hour": 1
+    },
+    "dstEnd": {
+      "month": 3,
+      "week": 2,
+      "dow": 0,
+      "hour": 2
+    }
   },
   "America/St_Barthelemy": {
-    "name": "America/St_Barthelemy"
+    "stdOffset": -240,
+    "dstOffset": -240,
+    "dstStart": null,
+    "dstEnd": null
   },
   "America/St_Johns": {
-    "name": "America/St_Johns"
+    "stdOffset": -150,
+    "dstOffset": -210,
+    "dstStart": {
+      "month": 11,
+      "week": 1,
+      "dow": 0,
+      "hour": 1
+    },
+    "dstEnd": {
+      "month": 3,
+      "week": 2,
+      "dow": 0,
+      "hour": 2
+    }
   },
   "America/St_Kitts": {
-    "name": "America/St_Kitts"
+    "stdOffset": -240,
+    "dstOffset": -240,
+    "dstStart": null,
+    "dstEnd": null
   },
   "America/St_Lucia": {
-    "name": "America/St_Lucia"
+    "stdOffset": -240,
+    "dstOffset": -240,
+    "dstStart": null,
+    "dstEnd": null
   },
   "America/St_Thomas": {
-    "name": "America/St_Thomas"
+    "stdOffset": -240,
+    "dstOffset": -240,
+    "dstStart": null,
+    "dstEnd": null
   },
   "America/St_Vincent": {
-    "name": "America/St_Vincent"
+    "stdOffset": -240,
+    "dstOffset": -240,
+    "dstStart": null,
+    "dstEnd": null
   },
   "America/Swift_Current": {
-    "name": "America/Swift_Current"
+    "stdOffset": -360,
+    "dstOffset": -360,
+    "dstStart": null,
+    "dstEnd": null
   },
   "America/Tegucigalpa": {
-    "name": "America/Tegucigalpa"
+    "stdOffset": -360,
+    "dstOffset": -360,
+    "dstStart": null,
+    "dstEnd": null
   },
   "America/Thule": {
-    "name": "America/Thule"
+    "stdOffset": -180,
+    "dstOffset": -240,
+    "dstStart": {
+      "month": 11,
+      "week": 1,
+      "dow": 0,
+      "hour": 1
+    },
+    "dstEnd": {
+      "month": 3,
+      "week": 2,
+      "dow": 0,
+      "hour": 2
+    }
   },
   "America/Thunder_Bay": {
-    "name": "America/Thunder_Bay"
+    "stdOffset": -240,
+    "dstOffset": -300,
+    "dstStart": {
+      "month": 11,
+      "week": 1,
+      "dow": 0,
+      "hour": 1
+    },
+    "dstEnd": {
+      "month": 3,
+      "week": 2,
+      "dow": 0,
+      "hour": 2
+    }
   },
   "America/Tijuana": {
-    "name": "America/Tijuana"
+    "stdOffset": -420,
+    "dstOffset": -480,
+    "dstStart": {
+      "month": 11,
+      "week": 1,
+      "dow": 0,
+      "hour": 1
+    },
+    "dstEnd": {
+      "month": 3,
+      "week": 2,
+      "dow": 0,
+      "hour": 2
+    }
   },
   "America/Toronto": {
-    "name": "America/Toronto"
+    "stdOffset": -240,
+    "dstOffset": -300,
+    "dstStart": {
+      "month": 11,
+      "week": 1,
+      "dow": 0,
+      "hour": 1
+    },
+    "dstEnd": {
+      "month": 3,
+      "week": 2,
+      "dow": 0,
+      "hour": 2
+    }
   },
   "America/Tortola": {
-    "name": "America/Tortola"
+    "stdOffset": -240,
+    "dstOffset": -240,
+    "dstStart": null,
+    "dstEnd": null
   },
   "America/Vancouver": {
-    "name": "America/Vancouver"
+    "stdOffset": -420,
+    "dstOffset": -480,
+    "dstStart": {
+      "month": 11,
+      "week": 1,
+      "dow": 0,
+      "hour": 1
+    },
+    "dstEnd": {
+      "month": 3,
+      "week": 2,
+      "dow": 0,
+      "hour": 2
+    }
   },
   "America/Virgin": {
-    "name": "America/Virgin"
+    "stdOffset": -240,
+    "dstOffset": -240,
+    "dstStart": null,
+    "dstEnd": null
   },
   "America/Whitehorse": {
-    "name": "America/Whitehorse"
+    "stdOffset": -420,
+    "dstOffset": -420,
+    "dstStart": null,
+    "dstEnd": null
   },
   "America/Winnipeg": {
-    "name": "America/Winnipeg"
+    "stdOffset": -300,
+    "dstOffset": -360,
+    "dstStart": {
+      "month": 11,
+      "week": 1,
+      "dow": 0,
+      "hour": 1
+    },
+    "dstEnd": {
+      "month": 3,
+      "week": 2,
+      "dow": 0,
+      "hour": 2
+    }
   },
   "America/Yakutat": {
-    "name": "America/Yakutat"
+    "stdOffset": -480,
+    "dstOffset": -540,
+    "dstStart": {
+      "month": 11,
+      "week": 1,
+      "dow": 0,
+      "hour": 1
+    },
+    "dstEnd": {
+      "month": 3,
+      "week": 2,
+      "dow": 0,
+      "hour": 2
+    }
   },
   "America/Yellowknife": {
-    "name": "America/Yellowknife"
+    "stdOffset": -360,
+    "dstOffset": -420,
+    "dstStart": {
+      "month": 11,
+      "week": 1,
+      "dow": 0,
+      "hour": 1
+    },
+    "dstEnd": {
+      "month": 3,
+      "week": 2,
+      "dow": 0,
+      "hour": 2
+    }
   },
   "Antarctica/Casey": {
-    "name": "Antarctica/Casey"
+    "stdOffset": 480,
+    "dstOffset": 480,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Antarctica/Davis": {
-    "name": "Antarctica/Davis"
+    "stdOffset": 420,
+    "dstOffset": 420,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Antarctica/DumontDUrville": {
-    "name": "Antarctica/DumontDUrville"
+    "stdOffset": 600,
+    "dstOffset": 600,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Antarctica/Macquarie": {
-    "name": "Antarctica/Macquarie"
+    "stdOffset": 600,
+    "dstOffset": 660,
+    "dstStart": {
+      "month": 10,
+      "week": 1,
+      "dow": 0,
+      "hour": 2
+    },
+    "dstEnd": {
+      "month": 4,
+      "week": 1,
+      "dow": 0,
+      "hour": 2
+    }
   },
   "Antarctica/Mawson": {
-    "name": "Antarctica/Mawson"
+    "stdOffset": 300,
+    "dstOffset": 300,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Antarctica/McMurdo": {
-    "name": "Antarctica/McMurdo"
+    "stdOffset": 720,
+    "dstOffset": 780,
+    "dstStart": {
+      "month": 9,
+      "week": 0,
+      "dow": 0,
+      "hour": 2
+    },
+    "dstEnd": {
+      "month": 4,
+      "week": 1,
+      "dow": 0,
+      "hour": 2
+    }
   },
   "Antarctica/Palmer": {
-    "name": "Antarctica/Palmer"
+    "stdOffset": -180,
+    "dstOffset": -180,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Antarctica/Rothera": {
-    "name": "Antarctica/Rothera"
+    "stdOffset": -180,
+    "dstOffset": -180,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Antarctica/South_Pole": {
-    "name": "Antarctica/South_Pole"
+    "stdOffset": 720,
+    "dstOffset": 780,
+    "dstStart": {
+      "month": 9,
+      "week": 0,
+      "dow": 0,
+      "hour": 2
+    },
+    "dstEnd": {
+      "month": 4,
+      "week": 1,
+      "dow": 0,
+      "hour": 2
+    }
   },
   "Antarctica/Syowa": {
-    "name": "Antarctica/Syowa"
+    "stdOffset": 180,
+    "dstOffset": 180,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Antarctica/Troll": {
-    "name": "Antarctica/Troll"
+    "stdOffset": 0,
+    "dstOffset": 120,
+    "dstStart": {
+      "month": 3,
+      "week": 0,
+      "dow": 0,
+      "hour": 2
+    },
+    "dstEnd": {
+      "month": 10,
+      "week": 0,
+      "dow": 0,
+      "hour": 2
+    }
   },
   "Antarctica/Vostok": {
-    "name": "Antarctica/Vostok"
+    "stdOffset": 300,
+    "dstOffset": 300,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Arctic/Longyearbyen": {
-    "name": "Arctic/Longyearbyen"
+    "stdOffset": 60,
+    "dstOffset": 120,
+    "dstStart": {
+      "month": 3,
+      "week": 0,
+      "dow": 0,
+      "hour": 2
+    },
+    "dstEnd": {
+      "month": 10,
+      "week": 0,
+      "dow": 0,
+      "hour": 2
+    }
   },
   "Asia/Aden": {
-    "name": "Asia/Aden"
+    "stdOffset": 180,
+    "dstOffset": 180,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Asia/Almaty": {
-    "name": "Asia/Almaty"
+    "stdOffset": 300,
+    "dstOffset": 300,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Asia/Amman": {
-    "name": "Asia/Amman"
+    "stdOffset": 180,
+    "dstOffset": 180,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Asia/Anadyr": {
-    "name": "Asia/Anadyr"
+    "stdOffset": 720,
+    "dstOffset": 720,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Asia/Aqtau": {
-    "name": "Asia/Aqtau"
+    "stdOffset": 300,
+    "dstOffset": 300,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Asia/Aqtobe": {
-    "name": "Asia/Aqtobe"
+    "stdOffset": 300,
+    "dstOffset": 300,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Asia/Ashgabat": {
-    "name": "Asia/Ashgabat"
+    "stdOffset": 300,
+    "dstOffset": 300,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Asia/Ashkhabad": {
-    "name": "Asia/Ashkhabad"
+    "stdOffset": 300,
+    "dstOffset": 300,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Asia/Atyrau": {
-    "name": "Asia/Atyrau"
+    "stdOffset": 300,
+    "dstOffset": 300,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Asia/Baghdad": {
-    "name": "Asia/Baghdad"
+    "stdOffset": 180,
+    "dstOffset": 180,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Asia/Bahrain": {
-    "name": "Asia/Bahrain"
+    "stdOffset": 180,
+    "dstOffset": 180,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Asia/Baku": {
-    "name": "Asia/Baku"
+    "stdOffset": 240,
+    "dstOffset": 240,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Asia/Bangkok": {
-    "name": "Asia/Bangkok"
+    "stdOffset": 420,
+    "dstOffset": 420,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Asia/Barnaul": {
-    "name": "Asia/Barnaul"
+    "stdOffset": 420,
+    "dstOffset": 420,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Asia/Beirut": {
-    "name": "Asia/Beirut"
+    "stdOffset": 120,
+    "dstOffset": 180,
+    "dstStart": {
+      "month": 3,
+      "week": 0,
+      "dow": 0,
+      "hour": 0
+    },
+    "dstEnd": {
+      "month": 10,
+      "week": 4,
+      "dow": 6,
+      "hour": 23
+    }
   },
   "Asia/Bishkek": {
-    "name": "Asia/Bishkek"
+    "stdOffset": 360,
+    "dstOffset": 360,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Asia/Brunei": {
-    "name": "Asia/Brunei"
+    "stdOffset": 480,
+    "dstOffset": 480,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Asia/Calcutta": {
-    "name": "Asia/Calcutta"
+    "stdOffset": 330,
+    "dstOffset": 330,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Asia/Chita": {
-    "name": "Asia/Chita"
+    "stdOffset": 540,
+    "dstOffset": 540,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Asia/Choibalsan": {
-    "name": "Asia/Choibalsan"
+    "stdOffset": 480,
+    "dstOffset": 480,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Asia/Chongqing": {
-    "name": "Asia/Chongqing"
+    "stdOffset": 480,
+    "dstOffset": 480,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Asia/Chungking": {
-    "name": "Asia/Chungking"
+    "stdOffset": 480,
+    "dstOffset": 480,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Asia/Colombo": {
-    "name": "Asia/Colombo"
+    "stdOffset": 330,
+    "dstOffset": 330,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Asia/Dacca": {
-    "name": "Asia/Dacca"
+    "stdOffset": 360,
+    "dstOffset": 360,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Asia/Damascus": {
-    "name": "Asia/Damascus"
+    "stdOffset": 180,
+    "dstOffset": 180,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Asia/Dhaka": {
-    "name": "Asia/Dhaka"
+    "stdOffset": 360,
+    "dstOffset": 360,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Asia/Dili": {
-    "name": "Asia/Dili"
+    "stdOffset": 540,
+    "dstOffset": 540,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Asia/Dubai": {
-    "name": "Asia/Dubai"
+    "stdOffset": 240,
+    "dstOffset": 240,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Asia/Dushanbe": {
-    "name": "Asia/Dushanbe"
+    "stdOffset": 300,
+    "dstOffset": 300,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Asia/Famagusta": {
-    "name": "Asia/Famagusta"
+    "stdOffset": 120,
+    "dstOffset": 180,
+    "dstStart": {
+      "month": 3,
+      "week": 0,
+      "dow": 0,
+      "hour": 3
+    },
+    "dstEnd": {
+      "month": 10,
+      "week": 0,
+      "dow": 0,
+      "hour": 3
+    }
   },
   "Asia/Gaza": {
-    "name": "Asia/Gaza"
+    "stdOffset": 120,
+    "dstOffset": 180,
+    "dstStart": {
+      "month": 3,
+      "week": 0,
+      "dow": 6,
+      "hour": 2
+    },
+    "dstEnd": {
+      "month": 10,
+      "week": 4,
+      "dow": 6,
+      "hour": 1
+    }
   },
   "Asia/Harbin": {
-    "name": "Asia/Harbin"
+    "stdOffset": 480,
+    "dstOffset": 480,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Asia/Hebron": {
-    "name": "Asia/Hebron"
+    "stdOffset": 120,
+    "dstOffset": 180,
+    "dstStart": {
+      "month": 3,
+      "week": 0,
+      "dow": 6,
+      "hour": 2
+    },
+    "dstEnd": {
+      "month": 10,
+      "week": 4,
+      "dow": 6,
+      "hour": 1
+    }
   },
   "Asia/Ho_Chi_Minh": {
-    "name": "Asia/Ho_Chi_Minh"
+    "stdOffset": 420,
+    "dstOffset": 420,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Asia/Hong_Kong": {
-    "name": "Asia/Hong_Kong"
+    "stdOffset": 480,
+    "dstOffset": 480,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Asia/Hovd": {
-    "name": "Asia/Hovd"
+    "stdOffset": 420,
+    "dstOffset": 420,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Asia/Irkutsk": {
-    "name": "Asia/Irkutsk"
+    "stdOffset": 480,
+    "dstOffset": 480,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Asia/Istanbul": {
-    "name": "Asia/Istanbul"
+    "stdOffset": 180,
+    "dstOffset": 180,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Asia/Jakarta": {
-    "name": "Asia/Jakarta"
+    "stdOffset": 420,
+    "dstOffset": 420,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Asia/Jayapura": {
-    "name": "Asia/Jayapura"
+    "stdOffset": 540,
+    "dstOffset": 540,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Asia/Jerusalem": {
-    "name": "Asia/Jerusalem"
+    "stdOffset": 120,
+    "dstOffset": 180,
+    "dstStart": {
+      "month": 3,
+      "week": 0,
+      "dow": 5,
+      "hour": 2
+    },
+    "dstEnd": {
+      "month": 10,
+      "week": 0,
+      "dow": 0,
+      "hour": 1
+    }
   },
   "Asia/Kabul": {
-    "name": "Asia/Kabul"
+    "stdOffset": 270,
+    "dstOffset": 270,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Asia/Kamchatka": {
-    "name": "Asia/Kamchatka"
+    "stdOffset": 720,
+    "dstOffset": 720,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Asia/Karachi": {
-    "name": "Asia/Karachi"
+    "stdOffset": 300,
+    "dstOffset": 300,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Asia/Kashgar": {
-    "name": "Asia/Kashgar"
+    "stdOffset": 360,
+    "dstOffset": 360,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Asia/Kathmandu": {
-    "name": "Asia/Kathmandu"
+    "stdOffset": 345,
+    "dstOffset": 345,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Asia/Katmandu": {
-    "name": "Asia/Katmandu"
+    "stdOffset": 345,
+    "dstOffset": 345,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Asia/Khandyga": {
-    "name": "Asia/Khandyga"
+    "stdOffset": 540,
+    "dstOffset": 540,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Asia/Kolkata": {
-    "name": "Asia/Kolkata"
+    "stdOffset": 330,
+    "dstOffset": 330,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Asia/Krasnoyarsk": {
-    "name": "Asia/Krasnoyarsk"
+    "stdOffset": 420,
+    "dstOffset": 420,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Asia/Kuala_Lumpur": {
-    "name": "Asia/Kuala_Lumpur"
+    "stdOffset": 480,
+    "dstOffset": 480,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Asia/Kuching": {
-    "name": "Asia/Kuching"
+    "stdOffset": 480,
+    "dstOffset": 480,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Asia/Kuwait": {
-    "name": "Asia/Kuwait"
+    "stdOffset": 180,
+    "dstOffset": 180,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Asia/Macao": {
-    "name": "Asia/Macao"
+    "stdOffset": 480,
+    "dstOffset": 480,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Asia/Macau": {
-    "name": "Asia/Macau"
+    "stdOffset": 480,
+    "dstOffset": 480,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Asia/Magadan": {
-    "name": "Asia/Magadan"
+    "stdOffset": 660,
+    "dstOffset": 660,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Asia/Makassar": {
-    "name": "Asia/Makassar"
+    "stdOffset": 480,
+    "dstOffset": 480,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Asia/Manila": {
-    "name": "Asia/Manila"
+    "stdOffset": 480,
+    "dstOffset": 480,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Asia/Muscat": {
-    "name": "Asia/Muscat"
+    "stdOffset": 240,
+    "dstOffset": 240,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Asia/Nicosia": {
-    "name": "Asia/Nicosia"
+    "stdOffset": 120,
+    "dstOffset": 180,
+    "dstStart": {
+      "month": 3,
+      "week": 0,
+      "dow": 0,
+      "hour": 3
+    },
+    "dstEnd": {
+      "month": 10,
+      "week": 0,
+      "dow": 0,
+      "hour": 3
+    }
   },
   "Asia/Novokuznetsk": {
-    "name": "Asia/Novokuznetsk"
+    "stdOffset": 420,
+    "dstOffset": 420,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Asia/Novosibirsk": {
-    "name": "Asia/Novosibirsk"
+    "stdOffset": 420,
+    "dstOffset": 420,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Asia/Omsk": {
-    "name": "Asia/Omsk"
+    "stdOffset": 360,
+    "dstOffset": 360,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Asia/Oral": {
-    "name": "Asia/Oral"
+    "stdOffset": 300,
+    "dstOffset": 300,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Asia/Phnom_Penh": {
-    "name": "Asia/Phnom_Penh"
+    "stdOffset": 420,
+    "dstOffset": 420,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Asia/Pontianak": {
-    "name": "Asia/Pontianak"
+    "stdOffset": 420,
+    "dstOffset": 420,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Asia/Pyongyang": {
-    "name": "Asia/Pyongyang"
+    "stdOffset": 540,
+    "dstOffset": 540,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Asia/Qatar": {
-    "name": "Asia/Qatar"
+    "stdOffset": 180,
+    "dstOffset": 180,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Asia/Qostanay": {
-    "name": "Asia/Qostanay"
+    "stdOffset": 300,
+    "dstOffset": 300,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Asia/Qyzylorda": {
-    "name": "Asia/Qyzylorda"
+    "stdOffset": 300,
+    "dstOffset": 300,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Asia/Rangoon": {
-    "name": "Asia/Rangoon"
+    "stdOffset": 390,
+    "dstOffset": 390,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Asia/Riyadh": {
-    "name": "Asia/Riyadh"
+    "stdOffset": 180,
+    "dstOffset": 180,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Asia/Saigon": {
-    "name": "Asia/Saigon"
+    "stdOffset": 420,
+    "dstOffset": 420,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Asia/Sakhalin": {
-    "name": "Asia/Sakhalin"
+    "stdOffset": 660,
+    "dstOffset": 660,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Asia/Samarkand": {
-    "name": "Asia/Samarkand"
+    "stdOffset": 300,
+    "dstOffset": 300,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Asia/Seoul": {
-    "name": "Asia/Seoul"
+    "stdOffset": 540,
+    "dstOffset": 540,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Asia/Shanghai": {
-    "name": "Asia/Shanghai"
+    "stdOffset": 480,
+    "dstOffset": 480,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Asia/Singapore": {
-    "name": "Asia/Singapore"
+    "stdOffset": 480,
+    "dstOffset": 480,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Asia/Srednekolymsk": {
-    "name": "Asia/Srednekolymsk"
+    "stdOffset": 660,
+    "dstOffset": 660,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Asia/Taipei": {
-    "name": "Asia/Taipei"
+    "stdOffset": 480,
+    "dstOffset": 480,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Asia/Tashkent": {
-    "name": "Asia/Tashkent"
+    "stdOffset": 300,
+    "dstOffset": 300,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Asia/Tbilisi": {
-    "name": "Asia/Tbilisi"
+    "stdOffset": 240,
+    "dstOffset": 240,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Asia/Tehran": {
-    "name": "Asia/Tehran"
+    "stdOffset": 210,
+    "dstOffset": 210,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Asia/Tel_Aviv": {
-    "name": "Asia/Tel_Aviv"
+    "stdOffset": 120,
+    "dstOffset": 180,
+    "dstStart": {
+      "month": 3,
+      "week": 0,
+      "dow": 5,
+      "hour": 2
+    },
+    "dstEnd": {
+      "month": 10,
+      "week": 0,
+      "dow": 0,
+      "hour": 1
+    }
   },
   "Asia/Thimbu": {
-    "name": "Asia/Thimbu"
+    "stdOffset": 360,
+    "dstOffset": 360,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Asia/Thimphu": {
-    "name": "Asia/Thimphu"
+    "stdOffset": 360,
+    "dstOffset": 360,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Asia/Tokyo": {
-    "name": "Asia/Tokyo"
+    "stdOffset": 540,
+    "dstOffset": 540,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Asia/Tomsk": {
-    "name": "Asia/Tomsk"
+    "stdOffset": 420,
+    "dstOffset": 420,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Asia/Ujung_Pandang": {
-    "name": "Asia/Ujung_Pandang"
+    "stdOffset": 480,
+    "dstOffset": 480,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Asia/Ulaanbaatar": {
-    "name": "Asia/Ulaanbaatar"
+    "stdOffset": 480,
+    "dstOffset": 480,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Asia/Ulan_Bator": {
-    "name": "Asia/Ulan_Bator"
+    "stdOffset": 480,
+    "dstOffset": 480,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Asia/Urumqi": {
-    "name": "Asia/Urumqi"
+    "stdOffset": 360,
+    "dstOffset": 360,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Asia/Ust-Nera": {
-    "name": "Asia/Ust-Nera"
+    "stdOffset": 600,
+    "dstOffset": 600,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Asia/Vientiane": {
-    "name": "Asia/Vientiane"
+    "stdOffset": 420,
+    "dstOffset": 420,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Asia/Vladivostok": {
-    "name": "Asia/Vladivostok"
+    "stdOffset": 600,
+    "dstOffset": 600,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Asia/Yakutsk": {
-    "name": "Asia/Yakutsk"
+    "stdOffset": 540,
+    "dstOffset": 540,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Asia/Yangon": {
-    "name": "Asia/Yangon"
+    "stdOffset": 390,
+    "dstOffset": 390,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Asia/Yekaterinburg": {
-    "name": "Asia/Yekaterinburg"
+    "stdOffset": 300,
+    "dstOffset": 300,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Asia/Yerevan": {
-    "name": "Asia/Yerevan"
+    "stdOffset": 240,
+    "dstOffset": 240,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Atlantic/Azores": {
-    "name": "Atlantic/Azores"
+    "stdOffset": 0,
+    "dstOffset": -60,
+    "dstStart": {
+      "month": 10,
+      "week": 0,
+      "dow": 0,
+      "hour": 0
+    },
+    "dstEnd": {
+      "month": 3,
+      "week": 0,
+      "dow": 0,
+      "hour": 0
+    }
   },
   "Atlantic/Bermuda": {
-    "name": "Atlantic/Bermuda"
+    "stdOffset": -180,
+    "dstOffset": -240,
+    "dstStart": {
+      "month": 11,
+      "week": 1,
+      "dow": 0,
+      "hour": 1
+    },
+    "dstEnd": {
+      "month": 3,
+      "week": 2,
+      "dow": 0,
+      "hour": 2
+    }
   },
   "Atlantic/Canary": {
-    "name": "Atlantic/Canary"
+    "stdOffset": 0,
+    "dstOffset": 60,
+    "dstStart": {
+      "month": 3,
+      "week": 0,
+      "dow": 0,
+      "hour": 1
+    },
+    "dstEnd": {
+      "month": 10,
+      "week": 0,
+      "dow": 0,
+      "hour": 1
+    }
   },
   "Atlantic/Cape_Verde": {
-    "name": "Atlantic/Cape_Verde"
+    "stdOffset": -60,
+    "dstOffset": -60,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Atlantic/Faeroe": {
-    "name": "Atlantic/Faeroe"
+    "stdOffset": 0,
+    "dstOffset": 60,
+    "dstStart": {
+      "month": 3,
+      "week": 0,
+      "dow": 0,
+      "hour": 1
+    },
+    "dstEnd": {
+      "month": 10,
+      "week": 0,
+      "dow": 0,
+      "hour": 1
+    }
   },
   "Atlantic/Faroe": {
-    "name": "Atlantic/Faroe"
+    "stdOffset": 0,
+    "dstOffset": 60,
+    "dstStart": {
+      "month": 3,
+      "week": 0,
+      "dow": 0,
+      "hour": 1
+    },
+    "dstEnd": {
+      "month": 10,
+      "week": 0,
+      "dow": 0,
+      "hour": 1
+    }
   },
   "Atlantic/Jan_Mayen": {
-    "name": "Atlantic/Jan_Mayen"
+    "stdOffset": 60,
+    "dstOffset": 120,
+    "dstStart": {
+      "month": 3,
+      "week": 0,
+      "dow": 0,
+      "hour": 2
+    },
+    "dstEnd": {
+      "month": 10,
+      "week": 0,
+      "dow": 0,
+      "hour": 2
+    }
   },
   "Atlantic/Madeira": {
-    "name": "Atlantic/Madeira"
+    "stdOffset": 0,
+    "dstOffset": 60,
+    "dstStart": {
+      "month": 3,
+      "week": 0,
+      "dow": 0,
+      "hour": 1
+    },
+    "dstEnd": {
+      "month": 10,
+      "week": 0,
+      "dow": 0,
+      "hour": 1
+    }
   },
   "Atlantic/Reykjavik": {
-    "name": "Atlantic/Reykjavik"
+    "stdOffset": 0,
+    "dstOffset": 0,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Atlantic/South_Georgia": {
-    "name": "Atlantic/South_Georgia"
+    "stdOffset": -120,
+    "dstOffset": -120,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Atlantic/St_Helena": {
-    "name": "Atlantic/St_Helena"
+    "stdOffset": 0,
+    "dstOffset": 0,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Atlantic/Stanley": {
-    "name": "Atlantic/Stanley"
+    "stdOffset": -180,
+    "dstOffset": -180,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Australia/ACT": {
-    "name": "Australia/ACT"
+    "stdOffset": 600,
+    "dstOffset": 660,
+    "dstStart": {
+      "month": 10,
+      "week": 1,
+      "dow": 0,
+      "hour": 2
+    },
+    "dstEnd": {
+      "month": 4,
+      "week": 1,
+      "dow": 0,
+      "hour": 2
+    }
   },
   "Australia/Adelaide": {
-    "name": "Australia/Adelaide"
+    "stdOffset": 570,
+    "dstOffset": 630,
+    "dstStart": {
+      "month": 10,
+      "week": 1,
+      "dow": 0,
+      "hour": 2
+    },
+    "dstEnd": {
+      "month": 4,
+      "week": 1,
+      "dow": 0,
+      "hour": 2
+    }
   },
   "Australia/Brisbane": {
-    "name": "Australia/Brisbane"
+    "stdOffset": 600,
+    "dstOffset": 600,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Australia/Broken_Hill": {
-    "name": "Australia/Broken_Hill"
+    "stdOffset": 570,
+    "dstOffset": 630,
+    "dstStart": {
+      "month": 10,
+      "week": 1,
+      "dow": 0,
+      "hour": 2
+    },
+    "dstEnd": {
+      "month": 4,
+      "week": 1,
+      "dow": 0,
+      "hour": 2
+    }
   },
   "Australia/Canberra": {
-    "name": "Australia/Canberra"
+    "stdOffset": 600,
+    "dstOffset": 660,
+    "dstStart": {
+      "month": 10,
+      "week": 1,
+      "dow": 0,
+      "hour": 2
+    },
+    "dstEnd": {
+      "month": 4,
+      "week": 1,
+      "dow": 0,
+      "hour": 2
+    }
   },
   "Australia/Currie": {
-    "name": "Australia/Currie"
+    "stdOffset": 600,
+    "dstOffset": 660,
+    "dstStart": {
+      "month": 10,
+      "week": 1,
+      "dow": 0,
+      "hour": 2
+    },
+    "dstEnd": {
+      "month": 4,
+      "week": 1,
+      "dow": 0,
+      "hour": 2
+    }
   },
   "Australia/Darwin": {
-    "name": "Australia/Darwin"
+    "stdOffset": 570,
+    "dstOffset": 570,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Australia/Eucla": {
-    "name": "Australia/Eucla"
+    "stdOffset": 525,
+    "dstOffset": 525,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Australia/Hobart": {
-    "name": "Australia/Hobart"
+    "stdOffset": 600,
+    "dstOffset": 660,
+    "dstStart": {
+      "month": 10,
+      "week": 1,
+      "dow": 0,
+      "hour": 2
+    },
+    "dstEnd": {
+      "month": 4,
+      "week": 1,
+      "dow": 0,
+      "hour": 2
+    }
   },
   "Australia/LHI": {
-    "name": "Australia/LHI"
+    "stdOffset": 630,
+    "dstOffset": 660,
+    "dstStart": {
+      "month": 10,
+      "week": 1,
+      "dow": 0,
+      "hour": 2
+    },
+    "dstEnd": {
+      "month": 4,
+      "week": 1,
+      "dow": 0,
+      "hour": 1
+    }
   },
   "Australia/Lindeman": {
-    "name": "Australia/Lindeman"
+    "stdOffset": 600,
+    "dstOffset": 600,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Australia/Lord_Howe": {
-    "name": "Australia/Lord_Howe"
+    "stdOffset": 630,
+    "dstOffset": 660,
+    "dstStart": {
+      "month": 10,
+      "week": 1,
+      "dow": 0,
+      "hour": 2
+    },
+    "dstEnd": {
+      "month": 4,
+      "week": 1,
+      "dow": 0,
+      "hour": 1
+    }
   },
   "Australia/Melbourne": {
-    "name": "Australia/Melbourne"
+    "stdOffset": 600,
+    "dstOffset": 660,
+    "dstStart": {
+      "month": 10,
+      "week": 1,
+      "dow": 0,
+      "hour": 2
+    },
+    "dstEnd": {
+      "month": 4,
+      "week": 1,
+      "dow": 0,
+      "hour": 2
+    }
   },
   "Australia/NSW": {
-    "name": "Australia/NSW"
+    "stdOffset": 600,
+    "dstOffset": 660,
+    "dstStart": {
+      "month": 10,
+      "week": 1,
+      "dow": 0,
+      "hour": 2
+    },
+    "dstEnd": {
+      "month": 4,
+      "week": 1,
+      "dow": 0,
+      "hour": 2
+    }
   },
   "Australia/North": {
-    "name": "Australia/North"
+    "stdOffset": 570,
+    "dstOffset": 570,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Australia/Perth": {
-    "name": "Australia/Perth"
+    "stdOffset": 480,
+    "dstOffset": 480,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Australia/Queensland": {
-    "name": "Australia/Queensland"
+    "stdOffset": 600,
+    "dstOffset": 600,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Australia/South": {
-    "name": "Australia/South"
+    "stdOffset": 570,
+    "dstOffset": 630,
+    "dstStart": {
+      "month": 10,
+      "week": 1,
+      "dow": 0,
+      "hour": 2
+    },
+    "dstEnd": {
+      "month": 4,
+      "week": 1,
+      "dow": 0,
+      "hour": 2
+    }
   },
   "Australia/Sydney": {
-    "name": "Australia/Sydney"
+    "stdOffset": 600,
+    "dstOffset": 660,
+    "dstStart": {
+      "month": 10,
+      "week": 1,
+      "dow": 0,
+      "hour": 2
+    },
+    "dstEnd": {
+      "month": 4,
+      "week": 1,
+      "dow": 0,
+      "hour": 2
+    }
   },
   "Australia/Tasmania": {
-    "name": "Australia/Tasmania"
+    "stdOffset": 600,
+    "dstOffset": 660,
+    "dstStart": {
+      "month": 10,
+      "week": 1,
+      "dow": 0,
+      "hour": 2
+    },
+    "dstEnd": {
+      "month": 4,
+      "week": 1,
+      "dow": 0,
+      "hour": 2
+    }
   },
   "Australia/Victoria": {
-    "name": "Australia/Victoria"
+    "stdOffset": 600,
+    "dstOffset": 660,
+    "dstStart": {
+      "month": 10,
+      "week": 1,
+      "dow": 0,
+      "hour": 2
+    },
+    "dstEnd": {
+      "month": 4,
+      "week": 1,
+      "dow": 0,
+      "hour": 2
+    }
   },
   "Australia/West": {
-    "name": "Australia/West"
+    "stdOffset": 480,
+    "dstOffset": 480,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Australia/Yancowinna": {
-    "name": "Australia/Yancowinna"
+    "stdOffset": 570,
+    "dstOffset": 630,
+    "dstStart": {
+      "month": 10,
+      "week": 1,
+      "dow": 0,
+      "hour": 2
+    },
+    "dstEnd": {
+      "month": 4,
+      "week": 1,
+      "dow": 0,
+      "hour": 2
+    }
   },
   "Brazil/Acre": {
-    "name": "Brazil/Acre"
+    "stdOffset": -300,
+    "dstOffset": -300,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Brazil/DeNoronha": {
-    "name": "Brazil/DeNoronha"
+    "stdOffset": -120,
+    "dstOffset": -120,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Brazil/East": {
-    "name": "Brazil/East"
+    "stdOffset": -180,
+    "dstOffset": -180,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Brazil/West": {
-    "name": "Brazil/West"
+    "stdOffset": -240,
+    "dstOffset": -240,
+    "dstStart": null,
+    "dstEnd": null
   },
   "CET": {
-    "name": "CET"
+    "stdOffset": 60,
+    "dstOffset": 120,
+    "dstStart": {
+      "month": 3,
+      "week": 0,
+      "dow": 0,
+      "hour": 2
+    },
+    "dstEnd": {
+      "month": 10,
+      "week": 0,
+      "dow": 0,
+      "hour": 2
+    }
   },
   "CST6CDT": {
-    "name": "CST6CDT"
+    "stdOffset": -300,
+    "dstOffset": -360,
+    "dstStart": {
+      "month": 11,
+      "week": 1,
+      "dow": 0,
+      "hour": 1
+    },
+    "dstEnd": {
+      "month": 3,
+      "week": 2,
+      "dow": 0,
+      "hour": 2
+    }
   },
   "Canada/Atlantic": {
-    "name": "Canada/Atlantic"
+    "stdOffset": -180,
+    "dstOffset": -240,
+    "dstStart": {
+      "month": 11,
+      "week": 1,
+      "dow": 0,
+      "hour": 1
+    },
+    "dstEnd": {
+      "month": 3,
+      "week": 2,
+      "dow": 0,
+      "hour": 2
+    }
   },
   "Canada/Central": {
-    "name": "Canada/Central"
+    "stdOffset": -300,
+    "dstOffset": -360,
+    "dstStart": {
+      "month": 11,
+      "week": 1,
+      "dow": 0,
+      "hour": 1
+    },
+    "dstEnd": {
+      "month": 3,
+      "week": 2,
+      "dow": 0,
+      "hour": 2
+    }
   },
   "Canada/Eastern": {
-    "name": "Canada/Eastern"
+    "stdOffset": -240,
+    "dstOffset": -300,
+    "dstStart": {
+      "month": 11,
+      "week": 1,
+      "dow": 0,
+      "hour": 1
+    },
+    "dstEnd": {
+      "month": 3,
+      "week": 2,
+      "dow": 0,
+      "hour": 2
+    }
   },
   "Canada/Mountain": {
-    "name": "Canada/Mountain"
+    "stdOffset": -360,
+    "dstOffset": -420,
+    "dstStart": {
+      "month": 11,
+      "week": 1,
+      "dow": 0,
+      "hour": 1
+    },
+    "dstEnd": {
+      "month": 3,
+      "week": 2,
+      "dow": 0,
+      "hour": 2
+    }
   },
   "Canada/Newfoundland": {
-    "name": "Canada/Newfoundland"
+    "stdOffset": -150,
+    "dstOffset": -210,
+    "dstStart": {
+      "month": 11,
+      "week": 1,
+      "dow": 0,
+      "hour": 1
+    },
+    "dstEnd": {
+      "month": 3,
+      "week": 2,
+      "dow": 0,
+      "hour": 2
+    }
   },
   "Canada/Pacific": {
-    "name": "Canada/Pacific"
+    "stdOffset": -420,
+    "dstOffset": -480,
+    "dstStart": {
+      "month": 11,
+      "week": 1,
+      "dow": 0,
+      "hour": 1
+    },
+    "dstEnd": {
+      "month": 3,
+      "week": 2,
+      "dow": 0,
+      "hour": 2
+    }
   },
   "Canada/Saskatchewan": {
-    "name": "Canada/Saskatchewan"
+    "stdOffset": -360,
+    "dstOffset": -360,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Canada/Yukon": {
-    "name": "Canada/Yukon"
+    "stdOffset": -420,
+    "dstOffset": -420,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Chile/Continental": {
-    "name": "Chile/Continental"
+    "stdOffset": -180,
+    "dstOffset": -240,
+    "dstStart": {
+      "month": 4,
+      "week": 1,
+      "dow": 6,
+      "hour": 23
+    },
+    "dstEnd": {
+      "month": 9,
+      "week": 1,
+      "dow": 0,
+      "hour": 0
+    }
   },
   "Chile/EasterIsland": {
-    "name": "Chile/EasterIsland"
+    "stdOffset": -300,
+    "dstOffset": -360,
+    "dstStart": {
+      "month": 4,
+      "week": 1,
+      "dow": 6,
+      "hour": 21
+    },
+    "dstEnd": {
+      "month": 9,
+      "week": 1,
+      "dow": 6,
+      "hour": 22
+    }
   },
   "Cuba": {
-    "name": "Cuba"
+    "stdOffset": -240,
+    "dstOffset": -300,
+    "dstStart": {
+      "month": 11,
+      "week": 1,
+      "dow": 0,
+      "hour": 0
+    },
+    "dstEnd": {
+      "month": 3,
+      "week": 2,
+      "dow": 0,
+      "hour": 0
+    }
   },
   "EET": {
-    "name": "EET"
+    "stdOffset": 120,
+    "dstOffset": 180,
+    "dstStart": {
+      "month": 3,
+      "week": 0,
+      "dow": 0,
+      "hour": 3
+    },
+    "dstEnd": {
+      "month": 10,
+      "week": 0,
+      "dow": 0,
+      "hour": 3
+    }
   },
   "EST": {
-    "name": "EST"
+    "stdOffset": -300,
+    "dstOffset": -300,
+    "dstStart": null,
+    "dstEnd": null
   },
   "EST5EDT": {
-    "name": "EST5EDT"
+    "stdOffset": -240,
+    "dstOffset": -300,
+    "dstStart": {
+      "month": 11,
+      "week": 1,
+      "dow": 0,
+      "hour": 1
+    },
+    "dstEnd": {
+      "month": 3,
+      "week": 2,
+      "dow": 0,
+      "hour": 2
+    }
   },
   "Egypt": {
-    "name": "Egypt"
+    "stdOffset": 120,
+    "dstOffset": 180,
+    "dstStart": {
+      "month": 4,
+      "week": 0,
+      "dow": 5,
+      "hour": 0
+    },
+    "dstEnd": {
+      "month": 10,
+      "week": 0,
+      "dow": 4,
+      "hour": 23
+    }
   },
   "Eire": {
-    "name": "Eire"
+    "stdOffset": 0,
+    "dstOffset": 60,
+    "dstStart": {
+      "month": 3,
+      "week": 0,
+      "dow": 0,
+      "hour": 1
+    },
+    "dstEnd": {
+      "month": 10,
+      "week": 0,
+      "dow": 0,
+      "hour": 1
+    }
   },
   "Etc/GMT": {
-    "name": "Etc/GMT"
+    "stdOffset": 0,
+    "dstOffset": 0,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Etc/GMT+0": {
-    "name": "Etc/GMT+0"
+    "stdOffset": 0,
+    "dstOffset": 0,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Etc/GMT+1": {
-    "name": "Etc/GMT+1"
+    "stdOffset": -60,
+    "dstOffset": -60,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Etc/GMT+10": {
-    "name": "Etc/GMT+10"
+    "stdOffset": -600,
+    "dstOffset": -600,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Etc/GMT+11": {
-    "name": "Etc/GMT+11"
+    "stdOffset": -660,
+    "dstOffset": -660,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Etc/GMT+12": {
-    "name": "Etc/GMT+12"
+    "stdOffset": -720,
+    "dstOffset": -720,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Etc/GMT+2": {
-    "name": "Etc/GMT+2"
+    "stdOffset": -120,
+    "dstOffset": -120,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Etc/GMT+3": {
-    "name": "Etc/GMT+3"
+    "stdOffset": -180,
+    "dstOffset": -180,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Etc/GMT+4": {
-    "name": "Etc/GMT+4"
+    "stdOffset": -240,
+    "dstOffset": -240,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Etc/GMT+5": {
-    "name": "Etc/GMT+5"
+    "stdOffset": -300,
+    "dstOffset": -300,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Etc/GMT+6": {
-    "name": "Etc/GMT+6"
+    "stdOffset": -360,
+    "dstOffset": -360,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Etc/GMT+7": {
-    "name": "Etc/GMT+7"
+    "stdOffset": -420,
+    "dstOffset": -420,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Etc/GMT+8": {
-    "name": "Etc/GMT+8"
+    "stdOffset": -480,
+    "dstOffset": -480,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Etc/GMT+9": {
-    "name": "Etc/GMT+9"
+    "stdOffset": -540,
+    "dstOffset": -540,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Etc/GMT-0": {
-    "name": "Etc/GMT-0"
+    "stdOffset": 0,
+    "dstOffset": 0,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Etc/GMT-1": {
-    "name": "Etc/GMT-1"
+    "stdOffset": 60,
+    "dstOffset": 60,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Etc/GMT-10": {
-    "name": "Etc/GMT-10"
+    "stdOffset": 600,
+    "dstOffset": 600,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Etc/GMT-11": {
-    "name": "Etc/GMT-11"
+    "stdOffset": 660,
+    "dstOffset": 660,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Etc/GMT-12": {
-    "name": "Etc/GMT-12"
+    "stdOffset": 720,
+    "dstOffset": 720,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Etc/GMT-13": {
-    "name": "Etc/GMT-13"
+    "stdOffset": 780,
+    "dstOffset": 780,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Etc/GMT-14": {
-    "name": "Etc/GMT-14"
+    "stdOffset": 840,
+    "dstOffset": 840,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Etc/GMT-2": {
-    "name": "Etc/GMT-2"
+    "stdOffset": 120,
+    "dstOffset": 120,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Etc/GMT-3": {
-    "name": "Etc/GMT-3"
+    "stdOffset": 180,
+    "dstOffset": 180,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Etc/GMT-4": {
-    "name": "Etc/GMT-4"
+    "stdOffset": 240,
+    "dstOffset": 240,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Etc/GMT-5": {
-    "name": "Etc/GMT-5"
+    "stdOffset": 300,
+    "dstOffset": 300,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Etc/GMT-6": {
-    "name": "Etc/GMT-6"
+    "stdOffset": 360,
+    "dstOffset": 360,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Etc/GMT-7": {
-    "name": "Etc/GMT-7"
+    "stdOffset": 420,
+    "dstOffset": 420,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Etc/GMT-8": {
-    "name": "Etc/GMT-8"
+    "stdOffset": 480,
+    "dstOffset": 480,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Etc/GMT-9": {
-    "name": "Etc/GMT-9"
+    "stdOffset": 540,
+    "dstOffset": 540,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Etc/GMT0": {
-    "name": "Etc/GMT0"
+    "stdOffset": 0,
+    "dstOffset": 0,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Etc/Greenwich": {
-    "name": "Etc/Greenwich"
+    "stdOffset": 0,
+    "dstOffset": 0,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Etc/UCT": {
-    "name": "Etc/UCT"
+    "stdOffset": 0,
+    "dstOffset": 0,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Etc/UTC": {
-    "name": "Etc/UTC"
+    "stdOffset": 0,
+    "dstOffset": 0,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Etc/Universal": {
-    "name": "Etc/Universal"
+    "stdOffset": 0,
+    "dstOffset": 0,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Etc/Zulu": {
-    "name": "Etc/Zulu"
+    "stdOffset": 0,
+    "dstOffset": 0,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Europe/Amsterdam": {
-    "name": "Europe/Amsterdam"
+    "stdOffset": 60,
+    "dstOffset": 120,
+    "dstStart": {
+      "month": 3,
+      "week": 0,
+      "dow": 0,
+      "hour": 2
+    },
+    "dstEnd": {
+      "month": 10,
+      "week": 0,
+      "dow": 0,
+      "hour": 2
+    }
   },
   "Europe/Andorra": {
-    "name": "Europe/Andorra"
+    "stdOffset": 60,
+    "dstOffset": 120,
+    "dstStart": {
+      "month": 3,
+      "week": 0,
+      "dow": 0,
+      "hour": 2
+    },
+    "dstEnd": {
+      "month": 10,
+      "week": 0,
+      "dow": 0,
+      "hour": 2
+    }
   },
   "Europe/Astrakhan": {
-    "name": "Europe/Astrakhan"
+    "stdOffset": 240,
+    "dstOffset": 240,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Europe/Athens": {
-    "name": "Europe/Athens"
+    "stdOffset": 120,
+    "dstOffset": 180,
+    "dstStart": {
+      "month": 3,
+      "week": 0,
+      "dow": 0,
+      "hour": 3
+    },
+    "dstEnd": {
+      "month": 10,
+      "week": 0,
+      "dow": 0,
+      "hour": 3
+    }
   },
   "Europe/Belfast": {
-    "name": "Europe/Belfast"
+    "stdOffset": 0,
+    "dstOffset": 60,
+    "dstStart": {
+      "month": 3,
+      "week": 0,
+      "dow": 0,
+      "hour": 1
+    },
+    "dstEnd": {
+      "month": 10,
+      "week": 0,
+      "dow": 0,
+      "hour": 1
+    }
   },
   "Europe/Belgrade": {
-    "name": "Europe/Belgrade"
+    "stdOffset": 60,
+    "dstOffset": 120,
+    "dstStart": {
+      "month": 3,
+      "week": 0,
+      "dow": 0,
+      "hour": 2
+    },
+    "dstEnd": {
+      "month": 10,
+      "week": 0,
+      "dow": 0,
+      "hour": 2
+    }
   },
   "Europe/Berlin": {
-    "name": "Europe/Berlin"
+    "stdOffset": 60,
+    "dstOffset": 120,
+    "dstStart": {
+      "month": 3,
+      "week": 0,
+      "dow": 0,
+      "hour": 2
+    },
+    "dstEnd": {
+      "month": 10,
+      "week": 0,
+      "dow": 0,
+      "hour": 2
+    }
   },
   "Europe/Bratislava": {
-    "name": "Europe/Bratislava"
+    "stdOffset": 60,
+    "dstOffset": 120,
+    "dstStart": {
+      "month": 3,
+      "week": 0,
+      "dow": 0,
+      "hour": 2
+    },
+    "dstEnd": {
+      "month": 10,
+      "week": 0,
+      "dow": 0,
+      "hour": 2
+    }
   },
   "Europe/Brussels": {
-    "name": "Europe/Brussels"
+    "stdOffset": 60,
+    "dstOffset": 120,
+    "dstStart": {
+      "month": 3,
+      "week": 0,
+      "dow": 0,
+      "hour": 2
+    },
+    "dstEnd": {
+      "month": 10,
+      "week": 0,
+      "dow": 0,
+      "hour": 2
+    }
   },
   "Europe/Bucharest": {
-    "name": "Europe/Bucharest"
+    "stdOffset": 120,
+    "dstOffset": 180,
+    "dstStart": {
+      "month": 3,
+      "week": 0,
+      "dow": 0,
+      "hour": 3
+    },
+    "dstEnd": {
+      "month": 10,
+      "week": 0,
+      "dow": 0,
+      "hour": 3
+    }
   },
   "Europe/Budapest": {
-    "name": "Europe/Budapest"
+    "stdOffset": 60,
+    "dstOffset": 120,
+    "dstStart": {
+      "month": 3,
+      "week": 0,
+      "dow": 0,
+      "hour": 2
+    },
+    "dstEnd": {
+      "month": 10,
+      "week": 0,
+      "dow": 0,
+      "hour": 2
+    }
   },
   "Europe/Busingen": {
-    "name": "Europe/Busingen"
+    "stdOffset": 60,
+    "dstOffset": 120,
+    "dstStart": {
+      "month": 3,
+      "week": 0,
+      "dow": 0,
+      "hour": 2
+    },
+    "dstEnd": {
+      "month": 10,
+      "week": 0,
+      "dow": 0,
+      "hour": 2
+    }
   },
   "Europe/Chisinau": {
-    "name": "Europe/Chisinau"
+    "stdOffset": 120,
+    "dstOffset": 180,
+    "dstStart": {
+      "month": 3,
+      "week": 0,
+      "dow": 0,
+      "hour": 3
+    },
+    "dstEnd": {
+      "month": 10,
+      "week": 0,
+      "dow": 0,
+      "hour": 3
+    }
   },
   "Europe/Copenhagen": {
-    "name": "Europe/Copenhagen"
+    "stdOffset": 60,
+    "dstOffset": 120,
+    "dstStart": {
+      "month": 3,
+      "week": 0,
+      "dow": 0,
+      "hour": 2
+    },
+    "dstEnd": {
+      "month": 10,
+      "week": 0,
+      "dow": 0,
+      "hour": 2
+    }
   },
   "Europe/Dublin": {
-    "name": "Europe/Dublin"
+    "stdOffset": 0,
+    "dstOffset": 60,
+    "dstStart": {
+      "month": 3,
+      "week": 0,
+      "dow": 0,
+      "hour": 1
+    },
+    "dstEnd": {
+      "month": 10,
+      "week": 0,
+      "dow": 0,
+      "hour": 1
+    }
   },
   "Europe/Gibraltar": {
-    "name": "Europe/Gibraltar"
+    "stdOffset": 60,
+    "dstOffset": 120,
+    "dstStart": {
+      "month": 3,
+      "week": 0,
+      "dow": 0,
+      "hour": 2
+    },
+    "dstEnd": {
+      "month": 10,
+      "week": 0,
+      "dow": 0,
+      "hour": 2
+    }
   },
   "Europe/Guernsey": {
-    "name": "Europe/Guernsey"
+    "stdOffset": 0,
+    "dstOffset": 60,
+    "dstStart": {
+      "month": 3,
+      "week": 0,
+      "dow": 0,
+      "hour": 1
+    },
+    "dstEnd": {
+      "month": 10,
+      "week": 0,
+      "dow": 0,
+      "hour": 1
+    }
   },
   "Europe/Helsinki": {
-    "name": "Europe/Helsinki"
+    "stdOffset": 120,
+    "dstOffset": 180,
+    "dstStart": {
+      "month": 3,
+      "week": 0,
+      "dow": 0,
+      "hour": 3
+    },
+    "dstEnd": {
+      "month": 10,
+      "week": 0,
+      "dow": 0,
+      "hour": 3
+    }
   },
   "Europe/Isle_of_Man": {
-    "name": "Europe/Isle_of_Man"
+    "stdOffset": 0,
+    "dstOffset": 60,
+    "dstStart": {
+      "month": 3,
+      "week": 0,
+      "dow": 0,
+      "hour": 1
+    },
+    "dstEnd": {
+      "month": 10,
+      "week": 0,
+      "dow": 0,
+      "hour": 1
+    }
   },
   "Europe/Istanbul": {
-    "name": "Europe/Istanbul"
+    "stdOffset": 180,
+    "dstOffset": 180,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Europe/Jersey": {
-    "name": "Europe/Jersey"
+    "stdOffset": 0,
+    "dstOffset": 60,
+    "dstStart": {
+      "month": 3,
+      "week": 0,
+      "dow": 0,
+      "hour": 1
+    },
+    "dstEnd": {
+      "month": 10,
+      "week": 0,
+      "dow": 0,
+      "hour": 1
+    }
   },
   "Europe/Kaliningrad": {
-    "name": "Europe/Kaliningrad"
+    "stdOffset": 120,
+    "dstOffset": 120,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Europe/Kiev": {
-    "name": "Europe/Kiev"
+    "stdOffset": 120,
+    "dstOffset": 180,
+    "dstStart": {
+      "month": 3,
+      "week": 0,
+      "dow": 0,
+      "hour": 3
+    },
+    "dstEnd": {
+      "month": 10,
+      "week": 0,
+      "dow": 0,
+      "hour": 3
+    }
   },
   "Europe/Kirov": {
-    "name": "Europe/Kirov"
+    "stdOffset": 180,
+    "dstOffset": 180,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Europe/Kyiv": {
-    "name": "Europe/Kyiv"
+    "stdOffset": 120,
+    "dstOffset": 180,
+    "dstStart": {
+      "month": 3,
+      "week": 0,
+      "dow": 0,
+      "hour": 3
+    },
+    "dstEnd": {
+      "month": 10,
+      "week": 0,
+      "dow": 0,
+      "hour": 3
+    }
   },
   "Europe/Lisbon": {
-    "name": "Europe/Lisbon"
+    "stdOffset": 0,
+    "dstOffset": 60,
+    "dstStart": {
+      "month": 3,
+      "week": 0,
+      "dow": 0,
+      "hour": 1
+    },
+    "dstEnd": {
+      "month": 10,
+      "week": 0,
+      "dow": 0,
+      "hour": 1
+    }
   },
   "Europe/Ljubljana": {
-    "name": "Europe/Ljubljana"
+    "stdOffset": 60,
+    "dstOffset": 120,
+    "dstStart": {
+      "month": 3,
+      "week": 0,
+      "dow": 0,
+      "hour": 2
+    },
+    "dstEnd": {
+      "month": 10,
+      "week": 0,
+      "dow": 0,
+      "hour": 2
+    }
   },
   "Europe/London": {
-    "name": "Europe/London"
+    "stdOffset": 0,
+    "dstOffset": 60,
+    "dstStart": {
+      "month": 3,
+      "week": 0,
+      "dow": 0,
+      "hour": 1
+    },
+    "dstEnd": {
+      "month": 10,
+      "week": 0,
+      "dow": 0,
+      "hour": 1
+    }
   },
   "Europe/Luxembourg": {
-    "name": "Europe/Luxembourg"
+    "stdOffset": 60,
+    "dstOffset": 120,
+    "dstStart": {
+      "month": 3,
+      "week": 0,
+      "dow": 0,
+      "hour": 2
+    },
+    "dstEnd": {
+      "month": 10,
+      "week": 0,
+      "dow": 0,
+      "hour": 2
+    }
   },
   "Europe/Madrid": {
-    "name": "Europe/Madrid"
+    "stdOffset": 60,
+    "dstOffset": 120,
+    "dstStart": {
+      "month": 3,
+      "week": 0,
+      "dow": 0,
+      "hour": 2
+    },
+    "dstEnd": {
+      "month": 10,
+      "week": 0,
+      "dow": 0,
+      "hour": 2
+    }
   },
   "Europe/Malta": {
-    "name": "Europe/Malta"
+    "stdOffset": 60,
+    "dstOffset": 120,
+    "dstStart": {
+      "month": 3,
+      "week": 0,
+      "dow": 0,
+      "hour": 2
+    },
+    "dstEnd": {
+      "month": 10,
+      "week": 0,
+      "dow": 0,
+      "hour": 2
+    }
   },
   "Europe/Mariehamn": {
-    "name": "Europe/Mariehamn"
+    "stdOffset": 120,
+    "dstOffset": 180,
+    "dstStart": {
+      "month": 3,
+      "week": 0,
+      "dow": 0,
+      "hour": 3
+    },
+    "dstEnd": {
+      "month": 10,
+      "week": 0,
+      "dow": 0,
+      "hour": 3
+    }
   },
   "Europe/Minsk": {
-    "name": "Europe/Minsk"
+    "stdOffset": 180,
+    "dstOffset": 180,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Europe/Monaco": {
-    "name": "Europe/Monaco"
+    "stdOffset": 60,
+    "dstOffset": 120,
+    "dstStart": {
+      "month": 3,
+      "week": 0,
+      "dow": 0,
+      "hour": 2
+    },
+    "dstEnd": {
+      "month": 10,
+      "week": 0,
+      "dow": 0,
+      "hour": 2
+    }
   },
   "Europe/Moscow": {
-    "name": "Europe/Moscow"
+    "stdOffset": 180,
+    "dstOffset": 180,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Europe/Nicosia": {
-    "name": "Europe/Nicosia"
+    "stdOffset": 120,
+    "dstOffset": 180,
+    "dstStart": {
+      "month": 3,
+      "week": 0,
+      "dow": 0,
+      "hour": 3
+    },
+    "dstEnd": {
+      "month": 10,
+      "week": 0,
+      "dow": 0,
+      "hour": 3
+    }
   },
   "Europe/Oslo": {
-    "name": "Europe/Oslo"
+    "stdOffset": 60,
+    "dstOffset": 120,
+    "dstStart": {
+      "month": 3,
+      "week": 0,
+      "dow": 0,
+      "hour": 2
+    },
+    "dstEnd": {
+      "month": 10,
+      "week": 0,
+      "dow": 0,
+      "hour": 2
+    }
   },
   "Europe/Paris": {
-    "name": "Europe/Paris"
+    "stdOffset": 60,
+    "dstOffset": 120,
+    "dstStart": {
+      "month": 3,
+      "week": 0,
+      "dow": 0,
+      "hour": 2
+    },
+    "dstEnd": {
+      "month": 10,
+      "week": 0,
+      "dow": 0,
+      "hour": 2
+    }
   },
   "Europe/Podgorica": {
-    "name": "Europe/Podgorica"
+    "stdOffset": 60,
+    "dstOffset": 120,
+    "dstStart": {
+      "month": 3,
+      "week": 0,
+      "dow": 0,
+      "hour": 2
+    },
+    "dstEnd": {
+      "month": 10,
+      "week": 0,
+      "dow": 0,
+      "hour": 2
+    }
   },
   "Europe/Prague": {
-    "name": "Europe/Prague"
+    "stdOffset": 60,
+    "dstOffset": 120,
+    "dstStart": {
+      "month": 3,
+      "week": 0,
+      "dow": 0,
+      "hour": 2
+    },
+    "dstEnd": {
+      "month": 10,
+      "week": 0,
+      "dow": 0,
+      "hour": 2
+    }
   },
   "Europe/Riga": {
-    "name": "Europe/Riga"
+    "stdOffset": 120,
+    "dstOffset": 180,
+    "dstStart": {
+      "month": 3,
+      "week": 0,
+      "dow": 0,
+      "hour": 3
+    },
+    "dstEnd": {
+      "month": 10,
+      "week": 0,
+      "dow": 0,
+      "hour": 3
+    }
   },
   "Europe/Rome": {
-    "name": "Europe/Rome"
+    "stdOffset": 60,
+    "dstOffset": 120,
+    "dstStart": {
+      "month": 3,
+      "week": 0,
+      "dow": 0,
+      "hour": 2
+    },
+    "dstEnd": {
+      "month": 10,
+      "week": 0,
+      "dow": 0,
+      "hour": 2
+    }
   },
   "Europe/Samara": {
-    "name": "Europe/Samara"
+    "stdOffset": 240,
+    "dstOffset": 240,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Europe/San_Marino": {
-    "name": "Europe/San_Marino"
+    "stdOffset": 60,
+    "dstOffset": 120,
+    "dstStart": {
+      "month": 3,
+      "week": 0,
+      "dow": 0,
+      "hour": 2
+    },
+    "dstEnd": {
+      "month": 10,
+      "week": 0,
+      "dow": 0,
+      "hour": 2
+    }
   },
   "Europe/Sarajevo": {
-    "name": "Europe/Sarajevo"
+    "stdOffset": 60,
+    "dstOffset": 120,
+    "dstStart": {
+      "month": 3,
+      "week": 0,
+      "dow": 0,
+      "hour": 2
+    },
+    "dstEnd": {
+      "month": 10,
+      "week": 0,
+      "dow": 0,
+      "hour": 2
+    }
   },
   "Europe/Saratov": {
-    "name": "Europe/Saratov"
+    "stdOffset": 240,
+    "dstOffset": 240,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Europe/Simferopol": {
-    "name": "Europe/Simferopol"
+    "stdOffset": 180,
+    "dstOffset": 180,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Europe/Skopje": {
-    "name": "Europe/Skopje"
+    "stdOffset": 60,
+    "dstOffset": 120,
+    "dstStart": {
+      "month": 3,
+      "week": 0,
+      "dow": 0,
+      "hour": 2
+    },
+    "dstEnd": {
+      "month": 10,
+      "week": 0,
+      "dow": 0,
+      "hour": 2
+    }
   },
   "Europe/Sofia": {
-    "name": "Europe/Sofia"
+    "stdOffset": 120,
+    "dstOffset": 180,
+    "dstStart": {
+      "month": 3,
+      "week": 0,
+      "dow": 0,
+      "hour": 3
+    },
+    "dstEnd": {
+      "month": 10,
+      "week": 0,
+      "dow": 0,
+      "hour": 3
+    }
   },
   "Europe/Stockholm": {
-    "name": "Europe/Stockholm"
+    "stdOffset": 60,
+    "dstOffset": 120,
+    "dstStart": {
+      "month": 3,
+      "week": 0,
+      "dow": 0,
+      "hour": 2
+    },
+    "dstEnd": {
+      "month": 10,
+      "week": 0,
+      "dow": 0,
+      "hour": 2
+    }
   },
   "Europe/Tallinn": {
-    "name": "Europe/Tallinn"
+    "stdOffset": 120,
+    "dstOffset": 180,
+    "dstStart": {
+      "month": 3,
+      "week": 0,
+      "dow": 0,
+      "hour": 3
+    },
+    "dstEnd": {
+      "month": 10,
+      "week": 0,
+      "dow": 0,
+      "hour": 3
+    }
   },
   "Europe/Tirane": {
-    "name": "Europe/Tirane"
+    "stdOffset": 60,
+    "dstOffset": 120,
+    "dstStart": {
+      "month": 3,
+      "week": 0,
+      "dow": 0,
+      "hour": 2
+    },
+    "dstEnd": {
+      "month": 10,
+      "week": 0,
+      "dow": 0,
+      "hour": 2
+    }
   },
   "Europe/Tiraspol": {
-    "name": "Europe/Tiraspol"
+    "stdOffset": 120,
+    "dstOffset": 180,
+    "dstStart": {
+      "month": 3,
+      "week": 0,
+      "dow": 0,
+      "hour": 3
+    },
+    "dstEnd": {
+      "month": 10,
+      "week": 0,
+      "dow": 0,
+      "hour": 3
+    }
   },
   "Europe/Ulyanovsk": {
-    "name": "Europe/Ulyanovsk"
+    "stdOffset": 240,
+    "dstOffset": 240,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Europe/Uzhgorod": {
-    "name": "Europe/Uzhgorod"
+    "stdOffset": 120,
+    "dstOffset": 180,
+    "dstStart": {
+      "month": 3,
+      "week": 0,
+      "dow": 0,
+      "hour": 3
+    },
+    "dstEnd": {
+      "month": 10,
+      "week": 0,
+      "dow": 0,
+      "hour": 3
+    }
   },
   "Europe/Vaduz": {
-    "name": "Europe/Vaduz"
+    "stdOffset": 60,
+    "dstOffset": 120,
+    "dstStart": {
+      "month": 3,
+      "week": 0,
+      "dow": 0,
+      "hour": 2
+    },
+    "dstEnd": {
+      "month": 10,
+      "week": 0,
+      "dow": 0,
+      "hour": 2
+    }
   },
   "Europe/Vatican": {
-    "name": "Europe/Vatican"
+    "stdOffset": 60,
+    "dstOffset": 120,
+    "dstStart": {
+      "month": 3,
+      "week": 0,
+      "dow": 0,
+      "hour": 2
+    },
+    "dstEnd": {
+      "month": 10,
+      "week": 0,
+      "dow": 0,
+      "hour": 2
+    }
   },
   "Europe/Vienna": {
-    "name": "Europe/Vienna"
+    "stdOffset": 60,
+    "dstOffset": 120,
+    "dstStart": {
+      "month": 3,
+      "week": 0,
+      "dow": 0,
+      "hour": 2
+    },
+    "dstEnd": {
+      "month": 10,
+      "week": 0,
+      "dow": 0,
+      "hour": 2
+    }
   },
   "Europe/Vilnius": {
-    "name": "Europe/Vilnius"
+    "stdOffset": 120,
+    "dstOffset": 180,
+    "dstStart": {
+      "month": 3,
+      "week": 0,
+      "dow": 0,
+      "hour": 3
+    },
+    "dstEnd": {
+      "month": 10,
+      "week": 0,
+      "dow": 0,
+      "hour": 3
+    }
   },
   "Europe/Volgograd": {
-    "name": "Europe/Volgograd"
+    "stdOffset": 180,
+    "dstOffset": 180,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Europe/Warsaw": {
-    "name": "Europe/Warsaw"
+    "stdOffset": 60,
+    "dstOffset": 120,
+    "dstStart": {
+      "month": 3,
+      "week": 0,
+      "dow": 0,
+      "hour": 2
+    },
+    "dstEnd": {
+      "month": 10,
+      "week": 0,
+      "dow": 0,
+      "hour": 2
+    }
   },
   "Europe/Zagreb": {
-    "name": "Europe/Zagreb"
+    "stdOffset": 60,
+    "dstOffset": 120,
+    "dstStart": {
+      "month": 3,
+      "week": 0,
+      "dow": 0,
+      "hour": 2
+    },
+    "dstEnd": {
+      "month": 10,
+      "week": 0,
+      "dow": 0,
+      "hour": 2
+    }
   },
   "Europe/Zaporozhye": {
-    "name": "Europe/Zaporozhye"
+    "stdOffset": 120,
+    "dstOffset": 180,
+    "dstStart": {
+      "month": 3,
+      "week": 0,
+      "dow": 0,
+      "hour": 3
+    },
+    "dstEnd": {
+      "month": 10,
+      "week": 0,
+      "dow": 0,
+      "hour": 3
+    }
   },
   "Europe/Zurich": {
-    "name": "Europe/Zurich"
+    "stdOffset": 60,
+    "dstOffset": 120,
+    "dstStart": {
+      "month": 3,
+      "week": 0,
+      "dow": 0,
+      "hour": 2
+    },
+    "dstEnd": {
+      "month": 10,
+      "week": 0,
+      "dow": 0,
+      "hour": 2
+    }
   },
   "Factory": {
-    "name": "Factory"
+    "stdOffset": 0,
+    "dstOffset": 0,
+    "dstStart": null,
+    "dstEnd": null
   },
   "GB": {
-    "name": "GB"
+    "stdOffset": 0,
+    "dstOffset": 60,
+    "dstStart": {
+      "month": 3,
+      "week": 0,
+      "dow": 0,
+      "hour": 1
+    },
+    "dstEnd": {
+      "month": 10,
+      "week": 0,
+      "dow": 0,
+      "hour": 1
+    }
   },
   "GB-Eire": {
-    "name": "GB-Eire"
+    "stdOffset": 0,
+    "dstOffset": 60,
+    "dstStart": {
+      "month": 3,
+      "week": 0,
+      "dow": 0,
+      "hour": 1
+    },
+    "dstEnd": {
+      "month": 10,
+      "week": 0,
+      "dow": 0,
+      "hour": 1
+    }
   },
   "GMT": {
-    "name": "GMT"
+    "stdOffset": 0,
+    "dstOffset": 0,
+    "dstStart": null,
+    "dstEnd": null
   },
   "GMT+0": {
-    "name": "GMT+0"
+    "stdOffset": 0,
+    "dstOffset": 0,
+    "dstStart": null,
+    "dstEnd": null
   },
   "GMT-0": {
-    "name": "GMT-0"
+    "stdOffset": 0,
+    "dstOffset": 0,
+    "dstStart": null,
+    "dstEnd": null
   },
   "GMT0": {
-    "name": "GMT0"
+    "stdOffset": 0,
+    "dstOffset": 0,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Greenwich": {
-    "name": "Greenwich"
+    "stdOffset": 0,
+    "dstOffset": 0,
+    "dstStart": null,
+    "dstEnd": null
   },
   "HST": {
-    "name": "HST"
+    "stdOffset": -600,
+    "dstOffset": -600,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Hongkong": {
-    "name": "Hongkong"
+    "stdOffset": 480,
+    "dstOffset": 480,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Iceland": {
-    "name": "Iceland"
+    "stdOffset": 0,
+    "dstOffset": 0,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Indian/Antananarivo": {
-    "name": "Indian/Antananarivo"
+    "stdOffset": 180,
+    "dstOffset": 180,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Indian/Chagos": {
-    "name": "Indian/Chagos"
+    "stdOffset": 360,
+    "dstOffset": 360,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Indian/Christmas": {
-    "name": "Indian/Christmas"
+    "stdOffset": 420,
+    "dstOffset": 420,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Indian/Cocos": {
-    "name": "Indian/Cocos"
+    "stdOffset": 390,
+    "dstOffset": 390,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Indian/Comoro": {
-    "name": "Indian/Comoro"
+    "stdOffset": 180,
+    "dstOffset": 180,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Indian/Kerguelen": {
-    "name": "Indian/Kerguelen"
+    "stdOffset": 300,
+    "dstOffset": 300,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Indian/Mahe": {
-    "name": "Indian/Mahe"
+    "stdOffset": 240,
+    "dstOffset": 240,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Indian/Maldives": {
-    "name": "Indian/Maldives"
+    "stdOffset": 300,
+    "dstOffset": 300,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Indian/Mauritius": {
-    "name": "Indian/Mauritius"
+    "stdOffset": 240,
+    "dstOffset": 240,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Indian/Mayotte": {
-    "name": "Indian/Mayotte"
+    "stdOffset": 180,
+    "dstOffset": 180,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Indian/Reunion": {
-    "name": "Indian/Reunion"
+    "stdOffset": 240,
+    "dstOffset": 240,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Iran": {
-    "name": "Iran"
+    "stdOffset": 210,
+    "dstOffset": 210,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Israel": {
-    "name": "Israel"
+    "stdOffset": 120,
+    "dstOffset": 180,
+    "dstStart": {
+      "month": 3,
+      "week": 0,
+      "dow": 5,
+      "hour": 2
+    },
+    "dstEnd": {
+      "month": 10,
+      "week": 0,
+      "dow": 0,
+      "hour": 1
+    }
   },
   "Jamaica": {
-    "name": "Jamaica"
+    "stdOffset": -300,
+    "dstOffset": -300,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Japan": {
-    "name": "Japan"
+    "stdOffset": 540,
+    "dstOffset": 540,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Kwajalein": {
-    "name": "Kwajalein"
+    "stdOffset": 720,
+    "dstOffset": 720,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Libya": {
-    "name": "Libya"
+    "stdOffset": 120,
+    "dstOffset": 120,
+    "dstStart": null,
+    "dstEnd": null
   },
   "MET": {
-    "name": "MET"
+    "stdOffset": 60,
+    "dstOffset": 120,
+    "dstStart": {
+      "month": 3,
+      "week": 0,
+      "dow": 0,
+      "hour": 2
+    },
+    "dstEnd": {
+      "month": 10,
+      "week": 0,
+      "dow": 0,
+      "hour": 2
+    }
   },
   "MST": {
-    "name": "MST"
+    "stdOffset": -420,
+    "dstOffset": -420,
+    "dstStart": null,
+    "dstEnd": null
   },
   "MST7MDT": {
-    "name": "MST7MDT"
+    "stdOffset": -360,
+    "dstOffset": -420,
+    "dstStart": {
+      "month": 11,
+      "week": 1,
+      "dow": 0,
+      "hour": 1
+    },
+    "dstEnd": {
+      "month": 3,
+      "week": 2,
+      "dow": 0,
+      "hour": 2
+    }
   },
   "Mexico/BajaNorte": {
-    "name": "Mexico/BajaNorte"
+    "stdOffset": -420,
+    "dstOffset": -480,
+    "dstStart": {
+      "month": 11,
+      "week": 1,
+      "dow": 0,
+      "hour": 1
+    },
+    "dstEnd": {
+      "month": 3,
+      "week": 2,
+      "dow": 0,
+      "hour": 2
+    }
   },
   "Mexico/BajaSur": {
-    "name": "Mexico/BajaSur"
+    "stdOffset": -420,
+    "dstOffset": -420,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Mexico/General": {
-    "name": "Mexico/General"
+    "stdOffset": -360,
+    "dstOffset": -360,
+    "dstStart": null,
+    "dstEnd": null
   },
   "NZ": {
-    "name": "NZ"
+    "stdOffset": 720,
+    "dstOffset": 780,
+    "dstStart": {
+      "month": 9,
+      "week": 0,
+      "dow": 0,
+      "hour": 2
+    },
+    "dstEnd": {
+      "month": 4,
+      "week": 1,
+      "dow": 0,
+      "hour": 2
+    }
   },
   "NZ-CHAT": {
-    "name": "NZ-CHAT"
+    "stdOffset": 765,
+    "dstOffset": 825,
+    "dstStart": {
+      "month": 9,
+      "week": 0,
+      "dow": 0,
+      "hour": 3
+    },
+    "dstEnd": {
+      "month": 4,
+      "week": 1,
+      "dow": 0,
+      "hour": 3
+    }
   },
   "Navajo": {
-    "name": "Navajo"
+    "stdOffset": -360,
+    "dstOffset": -420,
+    "dstStart": {
+      "month": 11,
+      "week": 1,
+      "dow": 0,
+      "hour": 1
+    },
+    "dstEnd": {
+      "month": 3,
+      "week": 2,
+      "dow": 0,
+      "hour": 2
+    }
   },
   "PRC": {
-    "name": "PRC"
+    "stdOffset": 480,
+    "dstOffset": 480,
+    "dstStart": null,
+    "dstEnd": null
   },
   "PST8PDT": {
-    "name": "PST8PDT"
+    "stdOffset": -420,
+    "dstOffset": -480,
+    "dstStart": {
+      "month": 11,
+      "week": 1,
+      "dow": 0,
+      "hour": 1
+    },
+    "dstEnd": {
+      "month": 3,
+      "week": 2,
+      "dow": 0,
+      "hour": 2
+    }
   },
   "Pacific/Apia": {
-    "name": "Pacific/Apia"
+    "stdOffset": 780,
+    "dstOffset": 780,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Pacific/Auckland": {
-    "name": "Pacific/Auckland"
+    "stdOffset": 720,
+    "dstOffset": 780,
+    "dstStart": {
+      "month": 9,
+      "week": 0,
+      "dow": 0,
+      "hour": 2
+    },
+    "dstEnd": {
+      "month": 4,
+      "week": 1,
+      "dow": 0,
+      "hour": 2
+    }
   },
   "Pacific/Bougainville": {
-    "name": "Pacific/Bougainville"
+    "stdOffset": 660,
+    "dstOffset": 660,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Pacific/Chatham": {
-    "name": "Pacific/Chatham"
+    "stdOffset": 765,
+    "dstOffset": 825,
+    "dstStart": {
+      "month": 9,
+      "week": 0,
+      "dow": 0,
+      "hour": 3
+    },
+    "dstEnd": {
+      "month": 4,
+      "week": 1,
+      "dow": 0,
+      "hour": 3
+    }
   },
   "Pacific/Chuuk": {
-    "name": "Pacific/Chuuk"
+    "stdOffset": 600,
+    "dstOffset": 600,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Pacific/Easter": {
-    "name": "Pacific/Easter"
+    "stdOffset": -300,
+    "dstOffset": -360,
+    "dstStart": {
+      "month": 4,
+      "week": 1,
+      "dow": 6,
+      "hour": 21
+    },
+    "dstEnd": {
+      "month": 9,
+      "week": 1,
+      "dow": 6,
+      "hour": 22
+    }
   },
   "Pacific/Efate": {
-    "name": "Pacific/Efate"
+    "stdOffset": 660,
+    "dstOffset": 660,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Pacific/Enderbury": {
-    "name": "Pacific/Enderbury"
+    "stdOffset": 780,
+    "dstOffset": 780,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Pacific/Fakaofo": {
-    "name": "Pacific/Fakaofo"
+    "stdOffset": 780,
+    "dstOffset": 780,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Pacific/Fiji": {
-    "name": "Pacific/Fiji"
+    "stdOffset": 720,
+    "dstOffset": 720,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Pacific/Funafuti": {
-    "name": "Pacific/Funafuti"
+    "stdOffset": 720,
+    "dstOffset": 720,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Pacific/Galapagos": {
-    "name": "Pacific/Galapagos"
+    "stdOffset": -360,
+    "dstOffset": -360,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Pacific/Gambier": {
-    "name": "Pacific/Gambier"
+    "stdOffset": -540,
+    "dstOffset": -540,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Pacific/Guadalcanal": {
-    "name": "Pacific/Guadalcanal"
+    "stdOffset": 660,
+    "dstOffset": 660,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Pacific/Guam": {
-    "name": "Pacific/Guam"
+    "stdOffset": 600,
+    "dstOffset": 600,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Pacific/Honolulu": {
-    "name": "Pacific/Honolulu"
+    "stdOffset": -600,
+    "dstOffset": -600,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Pacific/Johnston": {
-    "name": "Pacific/Johnston"
+    "stdOffset": -600,
+    "dstOffset": -600,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Pacific/Kanton": {
-    "name": "Pacific/Kanton"
+    "stdOffset": 780,
+    "dstOffset": 780,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Pacific/Kiritimati": {
-    "name": "Pacific/Kiritimati"
+    "stdOffset": 840,
+    "dstOffset": 840,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Pacific/Kosrae": {
-    "name": "Pacific/Kosrae"
+    "stdOffset": 660,
+    "dstOffset": 660,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Pacific/Kwajalein": {
-    "name": "Pacific/Kwajalein"
+    "stdOffset": 720,
+    "dstOffset": 720,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Pacific/Majuro": {
-    "name": "Pacific/Majuro"
+    "stdOffset": 720,
+    "dstOffset": 720,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Pacific/Marquesas": {
-    "name": "Pacific/Marquesas"
+    "stdOffset": -570,
+    "dstOffset": -570,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Pacific/Midway": {
-    "name": "Pacific/Midway"
+    "stdOffset": -660,
+    "dstOffset": -660,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Pacific/Nauru": {
-    "name": "Pacific/Nauru"
+    "stdOffset": 720,
+    "dstOffset": 720,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Pacific/Niue": {
-    "name": "Pacific/Niue"
+    "stdOffset": -660,
+    "dstOffset": -660,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Pacific/Norfolk": {
-    "name": "Pacific/Norfolk"
+    "stdOffset": 660,
+    "dstOffset": 720,
+    "dstStart": {
+      "month": 10,
+      "week": 1,
+      "dow": 0,
+      "hour": 2
+    },
+    "dstEnd": {
+      "month": 4,
+      "week": 1,
+      "dow": 0,
+      "hour": 2
+    }
   },
   "Pacific/Noumea": {
-    "name": "Pacific/Noumea"
+    "stdOffset": 660,
+    "dstOffset": 660,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Pacific/Pago_Pago": {
-    "name": "Pacific/Pago_Pago"
+    "stdOffset": -660,
+    "dstOffset": -660,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Pacific/Palau": {
-    "name": "Pacific/Palau"
+    "stdOffset": 540,
+    "dstOffset": 540,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Pacific/Pitcairn": {
-    "name": "Pacific/Pitcairn"
+    "stdOffset": -480,
+    "dstOffset": -480,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Pacific/Pohnpei": {
-    "name": "Pacific/Pohnpei"
+    "stdOffset": 660,
+    "dstOffset": 660,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Pacific/Ponape": {
-    "name": "Pacific/Ponape"
+    "stdOffset": 660,
+    "dstOffset": 660,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Pacific/Port_Moresby": {
-    "name": "Pacific/Port_Moresby"
+    "stdOffset": 600,
+    "dstOffset": 600,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Pacific/Rarotonga": {
-    "name": "Pacific/Rarotonga"
+    "stdOffset": -600,
+    "dstOffset": -600,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Pacific/Saipan": {
-    "name": "Pacific/Saipan"
+    "stdOffset": 600,
+    "dstOffset": 600,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Pacific/Samoa": {
-    "name": "Pacific/Samoa"
+    "stdOffset": -660,
+    "dstOffset": -660,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Pacific/Tahiti": {
-    "name": "Pacific/Tahiti"
+    "stdOffset": -600,
+    "dstOffset": -600,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Pacific/Tarawa": {
-    "name": "Pacific/Tarawa"
+    "stdOffset": 720,
+    "dstOffset": 720,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Pacific/Tongatapu": {
-    "name": "Pacific/Tongatapu"
+    "stdOffset": 780,
+    "dstOffset": 780,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Pacific/Truk": {
-    "name": "Pacific/Truk"
+    "stdOffset": 600,
+    "dstOffset": 600,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Pacific/Wake": {
-    "name": "Pacific/Wake"
+    "stdOffset": 720,
+    "dstOffset": 720,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Pacific/Wallis": {
-    "name": "Pacific/Wallis"
+    "stdOffset": 720,
+    "dstOffset": 720,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Pacific/Yap": {
-    "name": "Pacific/Yap"
+    "stdOffset": 600,
+    "dstOffset": 600,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Poland": {
-    "name": "Poland"
+    "stdOffset": 60,
+    "dstOffset": 120,
+    "dstStart": {
+      "month": 3,
+      "week": 0,
+      "dow": 0,
+      "hour": 2
+    },
+    "dstEnd": {
+      "month": 10,
+      "week": 0,
+      "dow": 0,
+      "hour": 2
+    }
   },
   "Portugal": {
-    "name": "Portugal"
+    "stdOffset": 0,
+    "dstOffset": 60,
+    "dstStart": {
+      "month": 3,
+      "week": 0,
+      "dow": 0,
+      "hour": 1
+    },
+    "dstEnd": {
+      "month": 10,
+      "week": 0,
+      "dow": 0,
+      "hour": 1
+    }
   },
   "ROC": {
-    "name": "ROC"
+    "stdOffset": 480,
+    "dstOffset": 480,
+    "dstStart": null,
+    "dstEnd": null
   },
   "ROK": {
-    "name": "ROK"
+    "stdOffset": 540,
+    "dstOffset": 540,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Singapore": {
-    "name": "Singapore"
+    "stdOffset": 480,
+    "dstOffset": 480,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Turkey": {
-    "name": "Turkey"
+    "stdOffset": 180,
+    "dstOffset": 180,
+    "dstStart": null,
+    "dstEnd": null
   },
   "UCT": {
-    "name": "UCT"
+    "stdOffset": 0,
+    "dstOffset": 0,
+    "dstStart": null,
+    "dstEnd": null
   },
   "US/Alaska": {
-    "name": "US/Alaska"
+    "stdOffset": -480,
+    "dstOffset": -540,
+    "dstStart": {
+      "month": 11,
+      "week": 1,
+      "dow": 0,
+      "hour": 1
+    },
+    "dstEnd": {
+      "month": 3,
+      "week": 2,
+      "dow": 0,
+      "hour": 2
+    }
   },
   "US/Aleutian": {
-    "name": "US/Aleutian"
+    "stdOffset": -540,
+    "dstOffset": -600,
+    "dstStart": {
+      "month": 11,
+      "week": 1,
+      "dow": 0,
+      "hour": 1
+    },
+    "dstEnd": {
+      "month": 3,
+      "week": 2,
+      "dow": 0,
+      "hour": 2
+    }
   },
   "US/Arizona": {
-    "name": "US/Arizona"
+    "stdOffset": -420,
+    "dstOffset": -420,
+    "dstStart": null,
+    "dstEnd": null
   },
   "US/Central": {
-    "name": "US/Central"
+    "stdOffset": -300,
+    "dstOffset": -360,
+    "dstStart": {
+      "month": 11,
+      "week": 1,
+      "dow": 0,
+      "hour": 1
+    },
+    "dstEnd": {
+      "month": 3,
+      "week": 2,
+      "dow": 0,
+      "hour": 2
+    }
   },
   "US/East-Indiana": {
-    "name": "US/East-Indiana"
+    "stdOffset": -240,
+    "dstOffset": -300,
+    "dstStart": {
+      "month": 11,
+      "week": 1,
+      "dow": 0,
+      "hour": 1
+    },
+    "dstEnd": {
+      "month": 3,
+      "week": 2,
+      "dow": 0,
+      "hour": 2
+    }
   },
   "US/Eastern": {
-    "name": "US/Eastern"
+    "stdOffset": -240,
+    "dstOffset": -300,
+    "dstStart": {
+      "month": 11,
+      "week": 1,
+      "dow": 0,
+      "hour": 1
+    },
+    "dstEnd": {
+      "month": 3,
+      "week": 2,
+      "dow": 0,
+      "hour": 2
+    }
   },
   "US/Hawaii": {
-    "name": "US/Hawaii"
+    "stdOffset": -600,
+    "dstOffset": -600,
+    "dstStart": null,
+    "dstEnd": null
   },
   "US/Indiana-Starke": {
-    "name": "US/Indiana-Starke"
+    "stdOffset": -300,
+    "dstOffset": -360,
+    "dstStart": {
+      "month": 11,
+      "week": 1,
+      "dow": 0,
+      "hour": 1
+    },
+    "dstEnd": {
+      "month": 3,
+      "week": 2,
+      "dow": 0,
+      "hour": 2
+    }
   },
   "US/Michigan": {
-    "name": "US/Michigan"
+    "stdOffset": -240,
+    "dstOffset": -300,
+    "dstStart": {
+      "month": 11,
+      "week": 1,
+      "dow": 0,
+      "hour": 1
+    },
+    "dstEnd": {
+      "month": 3,
+      "week": 2,
+      "dow": 0,
+      "hour": 2
+    }
   },
   "US/Mountain": {
-    "name": "US/Mountain"
+    "stdOffset": -360,
+    "dstOffset": -420,
+    "dstStart": {
+      "month": 11,
+      "week": 1,
+      "dow": 0,
+      "hour": 1
+    },
+    "dstEnd": {
+      "month": 3,
+      "week": 2,
+      "dow": 0,
+      "hour": 2
+    }
   },
   "US/Pacific": {
-    "name": "US/Pacific"
+    "stdOffset": -420,
+    "dstOffset": -480,
+    "dstStart": {
+      "month": 11,
+      "week": 1,
+      "dow": 0,
+      "hour": 1
+    },
+    "dstEnd": {
+      "month": 3,
+      "week": 2,
+      "dow": 0,
+      "hour": 2
+    }
   },
   "US/Samoa": {
-    "name": "US/Samoa"
+    "stdOffset": -660,
+    "dstOffset": -660,
+    "dstStart": null,
+    "dstEnd": null
   },
   "UTC": {
-    "name": "UTC"
+    "stdOffset": 0,
+    "dstOffset": 0,
+    "dstStart": null,
+    "dstEnd": null
   },
   "Universal": {
-    "name": "Universal"
+    "stdOffset": 0,
+    "dstOffset": 0,
+    "dstStart": null,
+    "dstEnd": null
   },
   "W-SU": {
-    "name": "W-SU"
+    "stdOffset": 180,
+    "dstOffset": 180,
+    "dstStart": null,
+    "dstEnd": null
   },
   "WET": {
-    "name": "WET"
+    "stdOffset": 0,
+    "dstOffset": 60,
+    "dstStart": {
+      "month": 3,
+      "week": 0,
+      "dow": 0,
+      "hour": 1
+    },
+    "dstEnd": {
+      "month": 10,
+      "week": 0,
+      "dow": 0,
+      "hour": 1
+    }
   },
   "Zulu": {
-    "name": "Zulu"
-  },
-  "localtime": {
-    "name": "localtime"
+    "stdOffset": 0,
+    "dstOffset": 0,
+    "dstStart": null,
+    "dstEnd": null
   }
 }
