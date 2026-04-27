@@ -1,1 +1,5 @@
-{"version": "2026.04.27"}
+{
+  "generated_at": "2026-04-27T06:39:36.906629+00:00",
+  "timezone_count": 599,
+  "source": "IANA timezone database via Python zoneinfo"
+}
