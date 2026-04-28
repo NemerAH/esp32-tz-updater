@@ -26,11 +26,12 @@ jobs:
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
 
-          git add public/tz.json public/tz_version.json
+          # Add all three files!
+          git add public/tz.json public/tzme.json public/tz_version.json
 
           if git diff --staged --quiet; then
             echo "No changes in timezone data."
           else
             git commit -m "🤖 Auto-update: Timezone database changed"
             git push
-          fi
+        fi
