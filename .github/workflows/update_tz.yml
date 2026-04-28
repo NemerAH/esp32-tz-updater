@@ -8,9 +8,6 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-    env:
-      # This forces Node 24 NOW. If it works today, it works in 2027.
-      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
 
     steps:
       - name: Checkout repository
@@ -21,7 +18,6 @@ jobs:
         with:
           python-version: '3.10'
 
-      # No Linux system tools needed! Pure Python is future-proof.
       - name: Generate Timezone Data
         run: python scripts/convert.py
 
