@@ -1,1 +1,43 @@
 
+name: Update Timezones Daily
+
+# Run automatically every day at 03:00 UTC
+on:
+  schedule:
+    - cron: '0 3 * * *'
+  
+  # Allows you to manually trigger it from the GitHub website
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    # 1. Download your code
+    - name: Checkout repository
+      uses: actions/checkout@v3
+
+    # 2. Setup Python
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.10'
+
+    # 3. Run your script
+    - name: Generate Timezone Data
+      run: python your_script_name.py  # <--- CHANGE THIS to your actual filename!
+
+    # 4. Commit and Push if files changed
+    - name: Commit and push if changed
+      run: |
+        git config --global user.name "github-actions[bot]"
+        git config --global user.email "github-actions[bot]@users.noreply.github.com"
+        git add public/tz.json public/tz_version.json
+        # Check if there are actual changes to commit
+        if git diff --staged --quiet; then
+          echo "No changes in timezone data."
+        else
+          git commit -m "🤖 Auto-update: Timezone database changed"
+          git push
+        fi
