@@ -7,22 +7,21 @@ on:
 
 jobs:
   build:
-    runs-on: ubuntu-24.04   # pin modern runner (Node 24 native)
+    runs-on: ubuntu-latest
+    env:
+      # This forces Node 24 NOW. If it works today, it works in 2027.
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v5
+        uses: actions/checkout@v4
 
       - name: Set up Python
-        uses: actions/setup-python@v6
+        uses: actions/setup-python@v5
         with:
-          python-version: '3.11'
+          python-version: '3.10'
 
-      - name: Install system tzdata (for zic/zdump)
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y tzdata
-
+      # No Linux system tools needed! Pure Python is future-proof.
       - name: Generate Timezone Data
         run: python scripts/convert.py
 
@@ -38,4 +37,4 @@ jobs:
           else
             git commit -m "🤖 Auto-update: Timezone database changed"
             git push
-          fi
+        fi
