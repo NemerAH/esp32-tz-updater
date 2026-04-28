@@ -33,4 +33,4 @@ jobs:
           else
             git commit -m "🤖 Auto-update: Timezone database changed"
             git push
-        fi
+          fi
