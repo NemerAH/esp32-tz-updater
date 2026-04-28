@@ -129,17 +129,19 @@ def generate():
         if posix:
             data[tz] = posix
 
-    # 1. Generate a compact JSON string (no spaces/newlines saves ~15% file size)
-    json_str = json.dumps(data, separators=(',', ':'))
-
-    # 2. Save main database
+    # 1. Generate the compact JSON (for ESP-32 - tiny and fast)
+    json_compact = json.dumps(data, separators=(',', ':'))
     with open(f"{OUTPUT_DIR}/tz.json", "w") as f:
-        f.write(json_str)
+        f.write(json_compact)
+
+    # 2. Generate the readable JSON (for you to check on GitHub)
+    json_pretty = json.dumps(data, indent=2)
+    with open(f"{OUTPUT_DIR}/tzme.json", "w") as f:
+        f.write(json_pretty)
 
     # 3. AUTOMATIC VERSION GENERATION
-    # Create a unique number based on the exact content of the JSON
-    hash_obj = hashlib.md5(json_str.encode())
-    auto_version = int(hash_obj.hexdigest()[:7], 16) # Safe integer for ESP32
+    hash_obj = hashlib.md5(json_compact.encode())
+    auto_version = int(hash_obj.hexdigest()[:7], 16)
 
     # 4. Save the automatic version
     with open(f"{OUTPUT_DIR}/tz_version.json", "w") as f:
