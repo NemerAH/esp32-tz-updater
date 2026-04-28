@@ -2,8 +2,8 @@ name: Update Timezones Daily
 
 on:
   schedule:
-    - cron: '0 3 * * *' # Runs every day at 3:00 AM UTC
-  workflow_dispatch:      # Lets you run it manually from GitHub
+    - cron: '0 3 * * *' 
+  workflow_dispatch:      
 
 jobs:
   build:
@@ -11,15 +11,15 @@ jobs:
 
     steps:
     - name: Checkout repository
-      uses: actions/checkout@v3
+      uses: actions/checkout@v4      # <--- Changed v3 to v4
 
     - name: Set up Python
-      uses: actions/setup-python@v4
+      uses: actions/setup-python@v5   # <--- Changed v4 to v5
       with:
         python-version: '3.10'
 
     - name: Generate Timezone Data
-      run: python scripts/convert.py 
+      run: python scripts/convert.py   
 
     - name: Commit and push if changed
       run: |
