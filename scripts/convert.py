@@ -1,126 +1,152 @@
 import json
 import os
+import hashlib
 from datetime import datetime, timedelta
-from zoneinfo import ZoneInfo
+from zoneinfo import ZoneInfo, available_timezones
 
 OUTPUT_DIR = "public"
-YEAR = datetime.now().year
 
-def get_dst_transitions(tz_name):
-    """Find the next DST start and end transitions for a timezone."""
-    tz = ZoneInfo(tz_name)
+def format_posix_offset(total_seconds):
+    """
+    POSIX offsets are inverted! 
+    e.g., UTC-5 (New York) is written as "5". UTC+5:30 (India) is written as "-5:30".
+    """
+    inverted_secs = -total_seconds
+    h = int(inverted_secs // 3600)
+    m = int((inverted_secs % 3600) // 60)
     
-    # Check standard and DST offsets by looking at Jan and July
-    jan = datetime(YEAR, 1, 1, tzinfo=tz)
-    jul = datetime(YEAR, 7, 1, tzinfo=tz)
+    sign = "" if h >= 0 else "-"
+    abs_h = abs(h)
+    abs_m = abs(m)
     
-    std_offset = jan.utcoffset()
-    dst_offset = jul.utcoffset()
-    
-    # If they are the same, there is no DST
-    if std_offset == dst_offset:
-        return None, None, std_offset, dst_offset
-
-    # Determine which is STD and which is DST based on offset magnitude
-    # (DST is always further from zero than Standard, e.g., -5 vs -4, or +1 vs +2)
-    if abs(std_offset) > abs(dst_offset):
-        actual_std_offset, actual_dst_offset = dst_offset, std_offset
-        is_dst_in_jan = True  # Southern hemisphere
+    if m == 0:
+        return f"{sign}{abs_h}"
     else:
-        actual_std_offset, actual_dst_offset = std_offset, dst_offset
-        is_dst_in_jan = False
+        return f"{sign}{abs_h}:{abs_m:02d}"
 
-    # Scan day-by-day to find the exact transition dates
-    start_rule = None
-    end_rule = None
-
-    # Check a 14-month window to catch end-of-year transitions
-    start_date = datetime(YEAR - 1, 12, 1)
+def build_posix_rule(dt):
+    """Convert a datetime transition to a POSIX M.m.w.d/h rule"""
+    # POSIX Day of Week: Sunday=0, Monday=1 ... Saturday=6
+    dow = (dt.weekday() + 1) % 7
+    month = dt.month
+    hour = dt.hour
     
-    for i in range(450): # ~15 months
-        day = start_date + timedelta(days=i)
-        day_tz = day.replace(tzinfo=tz)
-        current_offset = day_tz.utcoffset()
-        next_day_tz = (day + timedelta(days=1)).replace(tzinfo=tz)
-        next_offset = next_day_tz.utcoffset()
-
-        if current_offset != next_offset:
-            # A transition happened overnight. Find the exact hour.
-            for hour in range(24):
-                check_time = day.replace(hour=hour, minute=0, second=0, tzinfo=tz)
-                next_hour = check_time + timedelta(hours=1)
-                
-                if check_time.utcoffset() != next_hour.utcoffset():
-                    transition_dt = check_time
-                    rule = build_esp32_rule(transition_dt)
-                    
-                    # Figure out if this is DST starting or ending
-                    if next_hour.utcoffset() == actual_dst_offset:
-                        start_rule = rule # DST is starting
-                    else:
-                        end_rule = rule   # DST is ending
-                    break
-
-        if start_rule and end_rule:
-            break
-
-    return start_rule, end_rule, actual_std_offset, actual_dst_offset
-
-def build_esp32_rule(dt):
-    """Convert a datetime transition to ESP32 TimeChangeRule numbers."""
-    # POSIX/ESP32 DOW: Sun=0, Mon=1 ... Sat=6
-    dow = dt.weekday() + 1 if dt.weekday() < 6 else 0 
-    
-    # Calculate week of month
+    # Calculate week of month (1 to 5)
     day_of_month = dt.day
     week = (day_of_month - 1) // 7 + 1
     
     # Check if this is the LAST week of the month
+    # If adding 7 days goes past the month, it's the last week (represented as 0 in POSIX)
     if week >= 4:
-        next_week_same_dow = day_of_month + 7
         try:
-            dt.replace(day=next_week_same_dow)
+            dt.replace(day=day_of_month + 7)
         except ValueError:
-            week = 0 # 0 means "Last week" in ESP32 Timezone library
+            week = 0 # 0 means "Last occurrence of this weekday in the month"
+    
+    return f"M{month}.{week}.{dow}/{hour}"
 
-    return {
-        "month": dt.month,
-        "week": week,
-        "dow": dow,
-        "hour": dt.hour
-    }
+def get_posix_string(tz_name):
+    """Generate a POSIX TZ string for a given IANA timezone using pure Python"""
+    try:
+        tz = ZoneInfo(tz_name)
+        year = datetime.now().year
+
+        # Check opposite seasons to find Standard vs DST offsets
+        jan = datetime(year, 1, 15, tzinfo=tz)
+        jul = datetime(year, 7, 15, tzinfo=tz)
+        off_jan = jan.utcoffset()
+        off_jul = jul.utcoffset()
+
+        # If they are the same, there is no DST
+        if off_jan == off_jul:
+            off_str = format_posix_offset(off_jan.total_seconds())
+            return f"STD{off_str}"
+
+        # DST offset is always further from zero than Standard (e.g., -4 is further than -5)
+        if abs(off_jan) > abs(off_jul):
+            std_off, dst_off = off_jul, off_jan
+        else:
+            std_off, dst_off = off_jan, off_jul
+
+        std_str = format_posix_offset(std_off.total_seconds())
+        dst_str = format_posix_offset(dst_off.total_seconds())
+
+        # Scan the current year to find the exact transition hours
+        start_rule = None
+        end_rule = None
+        
+        start_scan = datetime(year - 1, 12, 31, tzinfo=tz)
+        end_scan = datetime(year + 1, 1, 2, tzinfo=tz)
+        days_to_scan = (end_scan - start_scan).days
+
+        prev_off = start_scan.utcoffset()
+        for i in range(days_to_scan):
+            day = start_scan + timedelta(days=i)
+            curr_off = day.utcoffset()
+            
+            if curr_off != prev_off:
+                # A transition happened overnight! Find the exact hour.
+                for hour in range(24):
+                    t1 = day.replace(hour=hour, minute=0, second=0, tzinfo=tz)
+                    t2 = t1 + timedelta(hours=1)
+                    
+                    if t1.utcoffset() != t2.utcoffset():
+                        rule = build_posix_rule(t1)
+                        
+                        # If the new time (t2) is DST, this is the START rule.
+                        # If the new time (t2) is Standard, this is the END rule.
+                        # This automatically handles Northern & Southern hemispheres!
+                        if t2.utcoffset() == dst_off:
+                            start_rule = rule
+                        else:
+                            end_rule = rule
+                        break
+            prev_off = curr_off
+
+        if not start_rule or not end_rule:
+            # Fallback for weird edge cases (e.g., permanent DST changes mid-year)
+            off_str = format_posix_offset(std_off.total_seconds())
+            return f"STD{off_str}"
+
+        # Final POSIX String format
+        return f"STD{std_str}DST{dst_str},{start_rule},{end_rule}"
+
+    except Exception as e:
+        print(f"[ERROR calculating rules] {tz_name}: {e}")
+        return None
 
 def generate():
     os.makedirs(OUTPUT_DIR, exist_ok=True)
 
-    # Get a list of common timezones (or use timedatectl like you did before)
-    # Hardcoding a reasonable list saves generation time, but here is how to get all:
-    import subprocess
-    tz_list = subprocess.run(
-        ["timedatectl", "list-timezones"], 
-        capture_output=True, text=True
-    ).stdout.splitlines()
-
+    # Get all IANA timezones natively (No external tools needed!)
+    tz_list = sorted(available_timezones())
+    
     data = {}
-
+    
+    print(f"Generating rules for {len(tz_list)} timezones...")
     for tz in tz_list:
-        try:
-            start_rule, end_rule, std_off, dst_off = get_dst_transitions(tz)
-            
-            data[tz] = {
-                "stdOffset": int(std_off.total_seconds() / 60),
-                "dstOffset": int(dst_off.total_seconds() / 60),
-                "dstStart": start_rule,
-                "dstEnd": end_rule
-            }
-            print(f"[OK] {tz}")
-        except Exception as e:
-            print(f"[FAIL] {tz}: {e}")
+        posix = get_posix_string(tz)
+        if posix:
+            data[tz] = posix
 
+    # 1. Generate a compact JSON string (no spaces/newlines saves ~15% file size)
+    json_str = json.dumps(data, separators=(',', ':'))
+
+    # 2. Save main database
     with open(f"{OUTPUT_DIR}/tz.json", "w") as f:
-        json.dump(data, f, indent=2)
+        f.write(json_str)
 
-    print(f"\nGenerated rules for {len(data)} timezones.")
+    # 3. AUTOMATIC VERSION GENERATION
+    # Create a unique number based on the exact content of the JSON
+    hash_obj = hashlib.md5(json_str.encode())
+    auto_version = int(hash_obj.hexdigest()[:7], 16) # Safe integer for ESP32
+
+    # 4. Save the automatic version
+    with open(f"{OUTPUT_DIR}/tz_version.json", "w") as f:
+        json.dump({"v": auto_version}, f)
+
+    print(f"✅ Success! Generated {len(data)} timezones.")
+    print(f"📌 Auto-Version: {auto_version}")
 
 if __name__ == "__main__":
     generate()
