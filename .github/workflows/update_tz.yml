@@ -2,7 +2,7 @@ name: Update Timezones Daily
 
 on:
   schedule:
-    - cron: '40 9 * * *'
+    - cron: '40 10 * * *'
   workflow_dispatch:
 
 jobs:
@@ -26,7 +26,6 @@ jobs:
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
 
-          # Add all three files!
           git add public/tz.json public/tzme.json public/tz_version.json
 
           if git diff --staged --quiet; then
@@ -34,4 +33,4 @@ jobs:
           else
             git commit -m "🤖 Auto-update: Timezone database changed"
             git push
-        fi
+          fi
