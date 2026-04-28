@@ -2,35 +2,40 @@ name: Update Timezones Daily
 
 on:
   schedule:
-    - cron: '0 3 * * *' 
-  workflow_dispatch:      
+    - cron: '0 3 * * *'
+  workflow_dispatch:
 
 jobs:
   build:
-    runs-on: ubuntu-latest
-    env:
-      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true   # <--- ADD THIS LINE TO KILL THE WARNING
+    runs-on: ubuntu-24.04   # pin modern runner (Node 24 native)
 
     steps:
-    - name: Checkout repository
-      uses: actions/checkout@v4
+      - name: Checkout repository
+        uses: actions/checkout@v5
 
-    - name: Set up Python
-      uses: actions/setup-python@v5
-      with:
-        python-version: '3.10'
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: '3.11'
 
-    - name: Generate Timezone Data
-      run: python scripts/convert.py   
+      - name: Install system tzdata (for zic/zdump)
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y tzdata
 
-    - name: Commit and push if changed
-      run: |
-        git config --global user.name "github-actions[bot]"
-        git config --global user.email "github-actions[bot]@users.noreply.github.com"
-        git add public/tz.json public/tz_version.json
-        if git diff --staged --quiet; then
-          echo "No changes in timezone data."
-        else
-          git commit -m "🤖 Auto-update: Timezone database changed"
-          git push
-        fi
+      - name: Generate Timezone Data
+        run: python scripts/convert.py
+
+      - name: Commit and push if changed
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+
+          git add public/tz.json public/tz_version.json
+
+          if git diff --staged --quiet; then
+            echo "No changes in timezone data."
+          else
+            git commit -m "🤖 Auto-update: Timezone database changed"
+            git push
+          fi
